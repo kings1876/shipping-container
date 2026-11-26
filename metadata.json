@@ -1,0 +1,6 @@
+{
+  "name": "Steelridge Containers",
+  "description": "Buy new, used, and modified ISO shipping containers and prefab container homes across the USA with direct tilt-bed delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
