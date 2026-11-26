@@ -1,19 +1,30 @@
 import { CATEGORY_PAGES, CATEGORY_BY_PATH } from '../data/categories';
 import { GUIDE_PAGES, GUIDE_BY_SLUG } from '../data/guides';
 import { LOCATION_PAGES, LOCATION_BY_SLUG } from '../data/locations';
+import { PRODUCT_BY_SLUG, PRODUCT_PAGES } from '../data/products';
 import { TRUST_PAGES, TRUST_BY_PATH } from '../data/trustPages';
 import type {
   CategoryPageData,
   GuidePageData,
   LocationPageData,
+  ProductPageData,
   TrustPageData,
 } from '../types/seo';
+
+export const PRODUCTS_INDEX_SEO = {
+  path: '/products/',
+  title: 'Container Catalog | Sizes, Grades & Prices',
+  metaDescription:
+    'Browse every container we sell: 10ft to 53ft steel containers, storage units, offices, workshops, cabins and pools. Starting prices listed. Sales only.',
+};
 
 export type ResolvedPage =
   | { kind: 'category'; data: CategoryPageData }
   | { kind: 'location'; data: LocationPageData }
   | { kind: 'guide'; data: GuidePageData }
-  | { kind: 'trust'; data: TrustPageData };
+  | { kind: 'trust'; data: TrustPageData }
+  | { kind: 'product'; data: ProductPageData }
+  | { kind: 'products-index'; data: { title: string; metaDescription: string } };
 
 export function slugToPath(slug: string[]): string {
   return `/${slug.join('/').toLowerCase()}/`;
@@ -34,6 +45,15 @@ export function resolvePage(path: string): ResolvedPage | null {
     if (guide) return { kind: 'guide', data: guide };
   }
 
+  if (path === PRODUCTS_INDEX_SEO.path) {
+    return { kind: 'products-index', data: PRODUCTS_INDEX_SEO };
+  }
+
+  if (path.startsWith('/products/')) {
+    const product = PRODUCT_BY_SLUG[path.replace('/products/', '').replace(/\/$/, '')];
+    if (product) return { kind: 'product', data: product };
+  }
+
   const trust = TRUST_BY_PATH[path];
   if (trust) return { kind: 'trust', data: trust };
 
@@ -46,5 +66,7 @@ export function allPaths(): string[] {
     ...LOCATION_PAGES.map((p) => p.path),
     ...GUIDE_PAGES.map((p) => p.path),
     ...TRUST_PAGES.map((p) => p.path),
+    PRODUCTS_INDEX_SEO.path,
+    ...PRODUCT_PAGES.map((p) => p.path),
   ];
 }

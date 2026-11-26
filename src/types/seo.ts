@@ -149,3 +149,29 @@ export interface TrustPageData {
     bullets?: string[];
   }[];
 }
+
+export interface ProductPageData {
+  slug: string;
+  path: string;
+  categoryPath: string;
+  name: string;
+  h1: string;
+  title: string; // <= 60 chars
+  metaDescription: string; // <= 155 chars
+  primaryKeyword: string;
+  keywordVolume: string;
+  keywordKd: string;
+  supportingKeywords: string[];
+  condition: string;
+  sizeLabel: string;
+  priceFrom: number;
+  image: string;
+  imageAlt: string;
+  summary: string;
+  description: string[];
+  features: { label: string; detail: string }[];
+  bestFor: string[];
+  spec: ContainerSpecRow;
+  relatedProducts: string[];
+  faqs: FaqItem[];
+}

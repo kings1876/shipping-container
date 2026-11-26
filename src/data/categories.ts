@@ -1,5 +1,6 @@
 import { CategoryPageData } from '../types/seo';
 import { SITE_IMAGES } from './images';
+import { EXTRA_CATEGORY_PAGES } from './categoriesExtra';
 
 export const HOME_SEO = {
   path: '/',
@@ -17,7 +18,7 @@ export const HOME_SEO = {
   ],
 };
 
-export const CATEGORY_PAGES: CategoryPageData[] = [
+const BASE_CATEGORY_PAGES: CategoryPageData[] = [
   {
     path: '/shipping-containers-for-sale/',
     group: 'core',
@@ -1589,6 +1590,8 @@ export const CATEGORY_PAGES: CategoryPageData[] = [
     ],
   },
 ];
+
+export const CATEGORY_PAGES: CategoryPageData[] = [...BASE_CATEGORY_PAGES, ...EXTRA_CATEGORY_PAGES];
 
 export const CATEGORY_BY_PATH: Record<string, CategoryPageData> = Object.fromEntries(
   CATEGORY_PAGES.map((c) => [c.path, c]),

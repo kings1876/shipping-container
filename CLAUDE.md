@@ -5,6 +5,7 @@
 - Titles, descriptions and canonicals come from `generateMetadata`; JSON-LD comes from `src/components/SeoHead.tsx`.
 - Page content lives in `src/data/` (categories, guides, locations, trustPages). Keyword map and page plan: `taxonomy.md`.
 - Images: `public/images/`, referenced from `src/data/images.ts`.
+- Keyword rules (standing, until the owner says otherwise): US monthly volume 110 or more, KD under 25, transactional or commercial intent, sales only. Research lives in `keyword-research.md` / `.csv`.
 - SEO limits: title <= 60 chars, meta description <= 155 chars, one primary keyword per page.
 - Business model: sales only (no rental). Market: USA.
 - GitHub: https://github.com/kings1876/shipping-container (main). Vercel project: `shipping-container`, connected to the repo, prod alias https://shipping-container.vercel.app

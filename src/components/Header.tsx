@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { label: 'Containers', path: '/shipping-containers-for-sale/' },
   { label: 'Container Homes', path: '/shipping-container-homes-for-sale/' },
   { label: 'Modified', path: '/modified-shipping-containers/' },
+  { label: 'Catalog', path: '/products/' },
   { label: 'Locations', path: '/shipping-containers-for-sale/texas/' },
   { label: 'Guides', path: '/guides/shipping-container-sizes/' },
 ];

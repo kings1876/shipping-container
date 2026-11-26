@@ -7,6 +7,8 @@ import { SpecTable } from '../components/SpecTable';
 import { TrustpilotSection } from '../components/TrustpilotSection';
 import { CATEGORY_BY_PATH, CATEGORY_PAGES } from '../data/categories';
 import { GUIDE_PAGES } from '../data/guides';
+import { PRODUCT_PAGES } from '../data/products';
+import { ProductCard } from '../components/ProductCard';
 import { CategoryPageData } from '../types/seo';
 
 interface CategoryViewProps {
@@ -44,6 +46,10 @@ export function CategoryView({ category }: CategoryViewProps) {
   const relatedGuideObjs = category.relatedGuides
     .map((path) => GUIDE_PAGES.find((g) => g.path === path))
     .filter((g): g is NonNullable<typeof g> => Boolean(g));
+
+  const categoryProducts = category.isHub
+    ? PRODUCT_PAGES.slice(0, 8)
+    : PRODUCT_PAGES.filter((p) => p.categoryPath === category.path);
 
   const isHomeRelated =
     category.path.includes('container-home') ||
@@ -149,6 +155,20 @@ export function CategoryView({ category }: CategoryViewProps) {
 
           {/* Size & Pricing Spec Table */}
           <SpecTable specs={category.specs} caption={`${category.navLabel} Size & Pricing Specifications`} />
+
+          {/* Products in this category (all products on the main hub) */}
+          {categoryProducts.length > 0 && (
+            <div>
+              <h2 className="text-xl font-bold text-slate-900 mb-5">
+                {category.isHub ? 'Popular Containers' : `${category.navLabel} Products`}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                {categoryProducts.map((p) => (
+                  <ProductCard key={p.slug} product={p} />
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Delivery Info & Site Prep */}
           <div className="bg-white border border-slate-200 rounded-lg p-6 sm:p-8">

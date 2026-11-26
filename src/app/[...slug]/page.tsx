@@ -5,6 +5,8 @@ import { clampDescription, clampTitle } from '../../lib/site';
 import { CategoryView } from '../../views/CategoryView';
 import { GuideView } from '../../views/GuideView';
 import { LocationView } from '../../views/LocationView';
+import { ProductView } from '../../views/ProductView';
+import { ProductsIndexView } from '../../views/ProductsIndexView';
 import { TrustView } from '../../views/TrustView';
 
 export const dynamicParams = false;
@@ -45,5 +47,9 @@ export default async function Page({ params }: Props) {
       return <GuideView guide={page.data} />;
     case 'trust':
       return <TrustView page={page.data} />;
+    case 'product':
+      return <ProductView product={page.data} />;
+    case 'products-index':
+      return <ProductsIndexView />;
   }
 }
