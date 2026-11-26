@@ -120,7 +120,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '10', cond: 'new', price: 2450,
     kw: '10 foot container for sale', vol: '320', kd: '0',
     support: ['10 ft container for sale', '10ft containers for sale'],
-    image: I.container20New, imageAlt: 'New one-trip 10ft steel shipping container on a gravel pad',
+    image: I.prod10New, imageAlt: 'Blue steel shipping container with open doors and cardboard boxes on pallets inside',
     summary: 'A compact new 10ft steel container for tight sites, small yards and urban lots.',
     description: [
       'The 10ft one-trip container is the smallest standard ISO box we sell. It fits where a 20ft cannot go and can often be placed by a smaller truck.',
@@ -153,7 +153,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '20', cond: 'wwt', price: 1850,
     kw: 'used 20 foot container for sale', vol: '170', kd: '0',
     support: ['second hand 20 foot containers for sale', '20ft container for sale used'],
-    image: I.heroYard, imageAlt: 'Inspected used 20ft wind and watertight shipping container',
+    image: I.prod20Used, imageAlt: 'Close-up of white and blue steel shipping container doors with locking bars',
     summary: 'Our best-selling used 20ft container: inspected, sealed and ready for delivery.',
     description: [
       'The used 20ft container is the standard choice for storage, jobsites and farm use. At 1,172 cubic feet inside it holds a small workshop or the contents of a two-bedroom home.',
@@ -169,7 +169,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '20ft Cargo-Worthy Shipping Container',
     size: '20', cond: 'cw', price: 2250,
     kw: '20 foot cargo containers for sale', vol: '140', kd: '0',
-    image: I.container40HcUsed, imageAlt: 'Used 20ft cargo-worthy steel shipping container',
+    image: I.prod20Cw, imageAlt: 'Stacked teal steel shipping containers under a cloudy sky',
     summary: 'A used 20ft container surveyed to cargo-worthy standard for shipping or long-term storage.',
     description: [
       'A cargo-worthy container has passed a structural survey, which makes it suitable for shipping by sea or rail as well as storage.',
@@ -220,7 +220,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '40', cond: 'wwt', price: 2650,
     kw: '40ft used container for sale', vol: '110', kd: '0',
     support: ['40ft used shipping containers for sale'],
-    image: I.container40HcUsed, imageAlt: 'Used 40ft wind and watertight steel shipping container',
+    image: I.prod40Used, imageAlt: 'Blue steel shipping container corner against a clear blue sky',
     summary: 'Double the space of a 20ft for around 40 percent more money.',
     description: [
       'A used 40ft container holds 2,390 cubic feet and is the standard choice for vehicles, bulk stock and large jobsites.',
@@ -337,7 +337,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '20', cond: 'wwt', price: 2100,
     kw: 'metal storage containers for sale', vol: '320', kd: '0',
     support: ['steel storage containers for sale', 'storage cargo containers for sale'],
-    image: I.heroYard, imageAlt: '20ft steel storage container on a gravel pad',
+    image: I.detailLock, imageAlt: 'Close-up of a steel shipping container door latch with a padlock',
     summary: 'The standard 20ft steel storage container: secure, weatherproof and delivered.',
     description: [
       'A 20ft storage container is a common choice for storing furniture, equipment, vehicles or stock. It holds 1,172 cubic feet inside.',
@@ -455,7 +455,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '20ft Container Cabin',
     size: '20', cond: 'mod', price: 34900,
     kw: 'shipping container cabin for sale', vol: '140', kd: '0',
-    image: I.heroContainerHome, imageAlt: '20ft container cabin with large windows and a deck',
+    image: I.prodCabin, imageAlt: 'Two-story container-style cabin with large windows in a yellow rapeseed field',
     summary: 'A finished 20ft cabin with a sleeping area, kitchenette and bath.',
     description: [
       'This 20ft container cabin is finished inside and ready for utility hookups. It suits hunting land, weekend retreats and guest quarters.',
@@ -473,7 +473,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '20', cond: 'mod', price: 42900,
     kw: 'shipping container tiny house', vol: '1,600', kd: '14',
     support: ['container tiny house', 'tiny house container homes'],
-    image: I.heroContainerHome, imageAlt: 'Finished 20ft tiny container home with kitchen and bath',
+    image: I.prodTiny, imageAlt: 'Turquoise shipping container home with large glass windows',
     summary: 'A 160-square-foot tiny container home with kitchen, bath and sleeping area.',
     description: [
       'This single-module tiny home is built from a one-trip steel container and finished inside. It has a full bathroom, a compact kitchen and a sleeping area.',
