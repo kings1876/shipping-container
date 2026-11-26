@@ -1,10 +1,10 @@
+'use client';
+
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { AppLink } from './AppLink';
 
-interface HeaderProps {
-  currentPath: string;
-}
 
 const NAV_LINKS = [
   { label: 'Containers', path: '/shipping-containers-for-sale/' },
@@ -14,7 +14,8 @@ const NAV_LINKS = [
   { label: 'Guides', path: '/guides/shipping-container-sizes/' },
 ];
 
-export function Header({ currentPath }: HeaderProps) {
+export function Header() {
+  const currentPath = usePathname() || '/';
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (

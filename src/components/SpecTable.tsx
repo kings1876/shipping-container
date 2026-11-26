@@ -1,5 +1,7 @@
+'use client';
+
 import { ContainerSpecRow } from '../types/seo';
-import { navigateTo } from '../utils/navigation';
+import { useRouter } from 'next/navigation';
 
 interface SpecTableProps {
   specs: ContainerSpecRow[];
@@ -7,13 +9,14 @@ interface SpecTableProps {
 }
 
 export function SpecTable({ specs, caption = 'Container Dimensions, Weight & Starting Prices' }: SpecTableProps) {
+  const router = useRouter();
   const handleQuoteModel = (model: string) => {
     try {
       sessionStorage.setItem('steelridge_quote_model', model);
     } catch {
       // Ignore storage errors in restricted environments
     }
-    navigateTo('/get-a-quote/');
+    router.push('/get-a-quote/');
   };
 
   return (

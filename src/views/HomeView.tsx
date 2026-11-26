@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { AppLink } from '../components/AppLink';

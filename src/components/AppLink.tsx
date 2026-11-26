@@ -1,24 +1,15 @@
-import React from 'react';
-import { navigateTo } from '../utils/navigation';
+import Link from 'next/link';
+import type { AnchorHTMLAttributes, ReactNode } from 'react';
 
-interface AppLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+interface AppLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> {
   to: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
-export function AppLink({ to, onClick, children, ...rest }: AppLinkProps) {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (onClick) onClick(e);
-    if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) {
-      return;
-    }
-    e.preventDefault();
-    navigateTo(to);
-  };
-
+export function AppLink({ to, children, ...rest }: AppLinkProps) {
   return (
-    <a href={to} onClick={handleClick} {...rest}>
+    <Link href={to} {...rest}>
       {children}
-    </a>
+    </Link>
   );
 }
