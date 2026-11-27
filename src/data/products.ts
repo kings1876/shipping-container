@@ -136,7 +136,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '10ft Used Shipping Container',
     size: '10', cond: 'wwt', price: 1750,
     kw: '8x10 shipping containers for sale', vol: '170', kd: '0',
-    image: I.heroYard, imageAlt: 'Used 10ft wind and watertight steel shipping container',
+    image: I.container20New, imageAlt: 'Grey 10ft used steel shipping container with its doors open on a paved yard',
     summary: 'An inspected used 10ft container at our lowest entry price.',
     description: [
       'A 10ft used wind and watertight container is the cheapest way to get a lockable steel box on your property.',
@@ -153,7 +153,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '20', cond: 'wwt', price: 1850,
     kw: 'used 20 foot container for sale', vol: '170', kd: '0',
     support: ['second hand 20 foot containers for sale', '20ft container for sale used'],
-    image: I.prod20Used, imageAlt: 'Close-up of white and blue steel shipping container doors with locking bars',
+    image: I.container20New, imageAlt: 'Grey 20ft used steel shipping container with its doors open on a paved yard',
     summary: 'Our best-selling used 20ft container: inspected, sealed and ready for delivery.',
     description: [
       'The used 20ft container is the standard choice for storage, jobsites and farm use. At 1,172 cubic feet inside it holds a small workshop or the contents of a two-bedroom home.',
@@ -169,7 +169,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '20ft Cargo-Worthy Shipping Container',
     size: '20', cond: 'cw', price: 2250,
     kw: '20 foot cargo containers for sale', vol: '140', kd: '0',
-    image: I.prod20Cw, imageAlt: 'Stacked teal steel shipping containers under a cloudy sky',
+    image: I.container20New, imageAlt: 'Grey 20ft cargo-worthy steel shipping container with its doors open on a paved yard',
     summary: 'A used 20ft container surveyed to cargo-worthy standard for shipping or long-term storage.',
     description: [
       'A cargo-worthy container has passed a structural survey, which makes it suitable for shipping by sea or rail as well as storage.',
@@ -220,7 +220,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '40', cond: 'wwt', price: 2650,
     kw: '40ft used container for sale', vol: '110', kd: '0',
     support: ['40ft used shipping containers for sale'],
-    image: I.prod40Used, imageAlt: 'Blue steel shipping container corner against a clear blue sky',
+    image: I.container20New, imageAlt: 'Grey 40ft used steel shipping container with its doors open on a paved yard',
     summary: 'Double the space of a 20ft for around 40 percent more money.',
     description: [
       'A used 40ft container holds 2,390 cubic feet and is the standard choice for vehicles, bulk stock and large jobsites.',
