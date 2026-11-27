@@ -120,7 +120,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '10', cond: 'new', price: 2450,
     kw: '10 foot container for sale', vol: '320', kd: '0',
     support: ['10 ft container for sale', '10ft containers for sale'],
-    image: I.prod10New, imageAlt: 'Blue steel shipping container with open doors and cardboard boxes on pallets inside',
+    image: I.container20New, imageAlt: 'Grey 10ft one-trip steel shipping container with its doors open on a paved yard',
     summary: 'A compact new 10ft steel container for tight sites, small yards and urban lots.',
     description: [
       'The 10ft one-trip container is the smallest standard ISO box we sell. It fits where a 20ft cannot go and can often be placed by a smaller truck.',
@@ -237,7 +237,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '40', cond: 'new', price: 4350,
     kw: 'buy 40 foot shipping container', vol: '1,900', kd: '1',
     support: ['buy shipping container 40ft', 'buy 40 ft shipping container'],
-    image: I.container20New, imageAlt: 'New one-trip 40ft steel shipping container',
+    image: I.container20New, imageAlt: 'Grey 40ft one-trip steel shipping container with its doors open on a paved yard',
     summary: 'A near-new 40ft container for buyers who want the best condition.',
     description: [
       'This is a one-trip 40ft container in almost new condition. It suits premium storage and any project that starts with a clean steel shell.',
@@ -253,7 +253,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '40ft Cargo-Worthy Shipping Container',
     size: '40', cond: 'cw', price: 3100,
     kw: '40 containers for sale', vol: '320', kd: '1',
-    image: I.container40HcUsed, imageAlt: 'Used 40ft cargo-worthy steel shipping container',
+    image: I.container20New, imageAlt: 'Grey 40ft cargo-worthy steel shipping container with its doors open on a paved yard',
     summary: 'A surveyed 40ft container suitable for storage or shipment.',
     description: [
       'A cargo-worthy 40ft container is a step above wind and watertight. It passed a structural survey and is suitable for transport as well as storage.',
@@ -270,7 +270,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '40hc', cond: 'wwt', price: 2890,
     kw: '40ft high cube container for sale', vol: '260', kd: '8',
     support: ['40ft high cube shipping container for sale', '40 ft high cube container'],
-    image: I.container40HcUsed, imageAlt: 'Used 40ft high cube steel shipping container',
+    image: I.container20New, imageAlt: 'Grey 40ft high cube used steel shipping container with its doors open on a paved yard',
     summary: 'The most popular 40ft size: 2,700 cubic feet and 9ft 6in tall.',
     description: [
       'The 40ft high cube is the workhorse of container buyers. The extra foot of height adds about 13 percent more cubic volume than a standard 40ft.',
@@ -288,7 +288,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     size: '40hc', cond: 'new', price: 4950,
     kw: '40 ft high cube shipping container for sale', vol: '210', kd: '0',
     support: ['high cube container for sale'],
-    image: I.container20New, imageAlt: 'New one-trip 40ft high cube steel container',
+    image: I.container20New, imageAlt: 'Grey 40ft high cube one-trip steel shipping container with its doors open on a paved yard',
     summary: 'A near-new 40ft high cube, the best starting point for container homes and offices.',
     description: [
       'This one-trip 40ft high cube is the premium shell for conversions. Straight panels and clean paint reduce prep time.',
@@ -304,7 +304,7 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     name: '53ft High Cube Shipping Container',
     size: '53hc', cond: 'wwt', price: 6900,
     kw: '53 ft container for sale', vol: '170', kd: '0',
-    image: I.container40HcUsed, imageAlt: 'Used 53ft high cube steel container',
+    image: I.container20New, imageAlt: 'Grey 53ft high cube steel shipping container with its doors open on a paved yard',
     summary: 'The longest standard box we sell: 3,800 cubic feet of secure steel space.',
     description: [
       'A 53ft container is the domestic trailer length. It gives the largest single storage volume available and is a good fit for warehouses, retail overflow and big farms.',
