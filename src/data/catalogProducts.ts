@@ -24,10 +24,16 @@ interface CatalogRow {
   kw?: string;
   vol?: string;
   kd?: string;
+  about?: string;
 }
 
 const ROWS: CatalogRow[] = [
   {
+    "description": [
+      "If you are looking for a 3 bedroom container home, the Luxury 3 Bedroom Modular Container Home Villa is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $95,700 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 3 bedroom layout, insulated walls, large windows, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 3 bedroom container home",
     "slug": "luxury-3-bedroom-prefabricated-modular-container-home-villa",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Luxury 3 Bedroom Modular Container Home Villa",
@@ -44,10 +50,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1432-4.webp"
     ],
     "summary": "Luxury 3 Bedroom. Includes 3 bedroom layout, insulated walls, large windows. From $95,700, sales only.",
-    "description": [
-      "The Luxury 3 Bedroom Prefabricated Modular Container Home Villa is a container home you can buy outright for delivery across the lower 48 states. The starting price of $95,700 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 3 bedroom layout, insulated walls, large windows, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -77,6 +79,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 1 bedroom container home, the Luxury 1BHK Duplex Container Home with Spacious Outdoor Deck is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $54,999 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 1 bedroom layout, insulated walls, an outdoor deck or balcony, furnishings, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 1 bedroom container home",
     "slug": "luxury-1bhk-duplex-container-home-with-spacious-outdoor-deck",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Luxury 1BHK Duplex Container Home with Spacious Outdoor Deck",
@@ -93,10 +100,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1426-4.webp"
     ],
     "summary": "Luxury 1BHK Duplex Container Home. Includes 1 bedroom layout, insulated walls, an outdoor deck or balcony. From $54,999, sales only.",
-    "description": [
-      "The Luxury 1BHK Duplex Container Home with Spacious Outdoor Deck is a container home you can buy outright for delivery across the lower 48 states. The starting price of $54,999 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 1 bedroom layout, insulated walls, an outdoor deck or balcony, furnishings, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -126,6 +129,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 4 bedroom container home, the 4 Bedroom 2-Story Modular Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $48,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 4 bedroom layout, insulated walls, an outdoor deck or balcony, furnishings, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 4 bedroom container home",
     "slug": "4-bedroom-2-story-luxury-modular-container-home-villa",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "4 Bedroom 2-Story Modular Container Home",
@@ -142,10 +150,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1419-4.webp"
     ],
     "summary": "4 Bedroom 2 Story. Includes 4 bedroom layout, insulated walls, an outdoor deck or balcony. From $48,000, sales only.",
-    "description": [
-      "The 4 Bedroom 2 Story Luxury Modular Container Home Villa is a container home you can buy outright for delivery across the lower 48 states. The starting price of $48,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 4 bedroom layout, insulated walls, an outdoor deck or balcony, furnishings, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -175,6 +179,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a container house, the Modern Single-Storey Container House with Spacious Deck is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $46,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, an outdoor deck or balcony, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container house",
     "slug": "modern-single-storey-container-house-with-spacious-deck",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Modern Single-Storey Container House with Spacious Deck",
@@ -191,10 +200,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1410-4.webp"
     ],
     "summary": "Modern Single-Storey Container House. Includes insulated walls, an outdoor deck or balcony, off-grid options. From $46,000, sales only.",
-    "description": [
-      "The Modern Single-Storey Container House with Spacious Deck is a container home you can buy outright for delivery across the lower 48 states. The starting price of $46,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, an outdoor deck or balcony, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -224,6 +229,11 @@ const ROWS: CatalogRow[] = [
     "kd": "14"
   },
   {
+    "description": [
+      "If you are looking for a tiny container home, the Luxury 1 Bedroom Tiny Home with Rooftop Deck is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $34,999 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 1 bedroom layout, insulated walls, a bathroom, an outdoor deck or balcony, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this tiny container home",
     "slug": "luxury-1-bedroom-tiny-home-with-rooftop-deck",
     "categoryPath": "/tiny-house-container-homes/",
     "name": "Luxury 1 Bedroom Tiny Home with Rooftop Deck",
@@ -240,10 +250,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1402-4.webp"
     ],
     "summary": "Luxury 1 Bedroom Tiny Home with Rooftop Deck. Includes 1 bedroom layout, insulated walls, a bathroom. From $34,999, sales only.",
-    "description": [
-      "The Luxury 1 Bedroom Tiny Home with Rooftop Deck is a tiny home you can buy outright for delivery across the lower 48 states. The starting price of $34,999 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 1 bedroom layout, insulated walls, a bathroom, an outdoor deck or balcony, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -269,6 +275,11 @@ const ROWS: CatalogRow[] = [
     "kd": "14"
   },
   {
+    "description": [
+      "If you are looking for a luxury container home, the Luxury 40ft prefab container house with easy-folding sandwich panels is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $30,490 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this luxury container home",
     "slug": "luxury-40ft-prefab-container-house-with-easy-folding-sandwich-panels",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Luxury 40ft prefab container house with easy-folding sandwich panels",
@@ -285,10 +296,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1396-4.webp"
     ],
     "summary": "Luxury 40ft prefab container house. From $30,490, sales only.",
-    "description": [
-      "The Luxury 40ft prefab container house with easy-folding sandwich panels is a container home you can buy outright for delivery across the lower 48 states. The starting price of $30,490 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -318,6 +325,11 @@ const ROWS: CatalogRow[] = [
     "kd": "6"
   },
   {
+    "description": [
+      "If you are looking for a 40ft container home, the Customized 40ft Container Home, 1 Bedroom is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $14,549 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 1 bedroom layout, insulated walls, a kitchen, a bathroom, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 40ft container home",
     "slug": "customized-40ft-shipping-container-made-into-luxurious-1-bedroom",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Customized 40ft Container Home, 1 Bedroom",
@@ -333,10 +345,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1391-3.webp"
     ],
     "summary": "Customized 40ft Shipping. Includes 1 bedroom layout, insulated walls, a kitchen. From $14,549, sales only.",
-    "description": [
-      "The Customized 40ft Shipping Container Made into Luxurious 1 Bedroom is a container home you can buy outright for delivery across the lower 48 states. The starting price of $14,549 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 1 bedroom layout, insulated walls, a kitchen, a bathroom, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -366,6 +374,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a shipping container house, the 40ft Ready Made Villa Design Container House is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $8,440 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, an outdoor deck or balcony, large windows, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this shipping container house",
     "slug": "40ft-ready-made-villa-design-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "40ft Ready Made Villa Design Container House",
@@ -382,10 +395,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1371-4.webp"
     ],
     "summary": "40ft Ready Made Villa Design Container House. Includes insulated walls, an outdoor deck or balcony, large windows. From $8,440, sales only.",
-    "description": [
-      "The 40ft Ready Made Villa Design Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $8,440 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, an outdoor deck or balcony, large windows, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -415,6 +424,11 @@ const ROWS: CatalogRow[] = [
     "kd": "6"
   },
   {
+    "description": [
+      "If you are looking for a 40ft container house, the Custom 40ft Shipping Container House is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $7,549 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a kitchen, a bathroom, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 40ft container house",
     "slug": "custom-40ft-shipping-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Custom 40ft Shipping Container House",
@@ -431,10 +445,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1347-4.webp"
     ],
     "summary": "Custom 40ft Shipping Container House. Includes a kitchen, a bathroom, off-grid options. From $7,549, sales only.",
-    "description": [
-      "The Custom 40ft Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $7,549 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a kitchen, a bathroom, off-grid options, furnishings. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -464,6 +474,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a container cabin, the Custom 20ft Cozy Cabin Container House is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $7,149 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, a kitchen, a bathroom, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container cabin",
     "slug": "custom-20ft-cozy-cabin-container-house",
     "categoryPath": "/shipping-container-cabins/",
     "name": "Custom 20ft Cozy Cabin Container House",
@@ -480,10 +495,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1338-4.webp"
     ],
     "summary": "Custom 20ft Cozy Cabin Container House. Includes insulated walls, a kitchen, a bathroom. From $7,149, sales only.",
-    "description": [
-      "The Custom 20ft Cozy Cabin Container House is a container cabin you can buy outright for delivery across the lower 48 states. The starting price of $7,149 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, a kitchen, a bathroom, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -511,6 +522,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 20ft container home, the Fully Equipped 20ft Shipping Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,900 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include heating, a kitchen, a bathroom, large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft container home",
     "slug": "fully-equipped-20ft-shipping-container-home",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Fully Equipped 20ft Shipping Container Home",
@@ -527,10 +543,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1328-4.webp"
     ],
     "summary": "Fully Equipped 20ft Shipping Container Home. Includes heating, a kitchen, a bathroom. From $6,900, sales only.",
-    "description": [
-      "The Fully Equipped 20ft Shipping Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,900 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include heating, a kitchen, a bathroom, large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -560,6 +572,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a container home kit, the 20ft Prefab Shipping Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,430 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container home kit",
     "slug": "high-quality-20ft-prefab-shipping-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "20ft Prefab Shipping Container Home",
@@ -575,10 +592,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1323-3.webp"
     ],
     "summary": "High Quality 20ft Prefab Shipping. From $6,430, sales only.",
-    "description": [
-      "The High Quality 20ft Prefab Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,430 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -608,6 +621,11 @@ const ROWS: CatalogRow[] = [
     "kd": "5"
   },
   {
+    "description": [
+      "If you are looking for a modular container home, the 40ft Luxury Prefab Modern Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,349 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this modular container home",
     "slug": "40ft-luxury-good-quality-prefab-modern-container-home",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "40ft Luxury Prefab Modern Container Home",
@@ -623,10 +641,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1318-3.webp"
     ],
     "summary": "40ft Luxury Good Quality Prefab Modern. Includes insulated walls. From $6,349, sales only.",
-    "description": [
-      "The 40ft Luxury Good Quality Prefab Modern Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,349 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -656,6 +670,11 @@ const ROWS: CatalogRow[] = [
     "kd": "17"
   },
   {
+    "description": [
+      "If you are looking for a 20ft shipping container home, the Custom 20ft Shipping Container Home With Water Tank is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,549 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a kitchen, a bathroom, a water tank, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft shipping container home",
     "slug": "custom-20ft-shipping-container-home-with-water-tank",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Custom 20ft Shipping Container Home With Water Tank",
@@ -672,10 +691,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1307-4.webp"
     ],
     "summary": "Custom 20ft Shipping Container Home. Includes a kitchen, a bathroom, a water tank. From $4,549, sales only.",
-    "description": [
-      "The Custom 20ft Shipping Container Home With Water Tank is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,549 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a kitchen, a bathroom, a water tank, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -705,6 +720,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The Custom 20ft Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,049 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, a bathroom, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "custom-20ft-shipping-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "Custom 20ft Shipping Container House",
@@ -721,10 +740,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1301-4.webp"
     ],
     "summary": "Custom 20ft Shipping Container House. Includes insulated walls, air conditioning, heating. From $4,049, sales only.",
-    "description": [
-      "The Custom 20ft Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,049 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, a bathroom, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -751,6 +766,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a modified shipping container, the 20ft Modified Container House is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $13,038 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this modified shipping container",
     "slug": "20ft-modified-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "20ft Modified Container House",
@@ -767,10 +787,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-880-4.webp"
     ],
     "summary": "20ft Modified Container House. Includes a bathroom. From $13,038, sales only.",
-    "description": [
-      "The 20ft Modified Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $13,038 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -800,6 +816,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 40ft Modified Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $35,100 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-modified-container-house",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "40ft Modified Container House",
@@ -816,10 +836,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-869-4.webp"
     ],
     "summary": "40ft Modified Container House. Includes a bathroom. From $35,100, sales only.",
-    "description": [
-      "The 40ft Modified Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $35,100 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -846,6 +862,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a two story container home, the 2-Story Shipping Container Home with Rooftop Deck is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $17,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include an outdoor deck or balcony, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this two story container home",
     "slug": "2-story-shipping-container-home-with-rooftop-deck",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "2-Story Shipping Container Home with Rooftop Deck",
@@ -861,10 +882,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-155-3.webp"
     ],
     "summary": "2-Story Shipping Container Home. Includes an outdoor deck or balcony, a two-storey layout. From $17,000, sales only.",
-    "description": [
-      "The 2-Story Shipping Container Home with Rooftop Deck is a container home you can buy outright for delivery across the lower 48 states. The starting price of $17,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include an outdoor deck or balcony, a two-storey layout. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -894,6 +911,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for an office container house, the 20ft Custom Container Office & Tiny Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $10,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this office container house",
     "slug": "20ft-custom-container-office-and-tiny-home",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft Custom Container Office & Tiny Home",
@@ -909,10 +931,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-150-3.webp"
     ],
     "summary": "20ft Custom Container Office & Tiny Home. Includes extra height (9ft 6in), large windows. From $10,000, sales only.",
-    "description": [
-      "The 20ft Custom Container Office & Tiny Home is a container building you can buy outright for delivery across the lower 48 states. The starting price of $10,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -936,9 +954,17 @@ const ROWS: CatalogRow[] = [
       "21ft-x-8ft-custom-cabin-office-canteen",
       "modified-20ft-container-office-with-glass-door-and-ac",
       "7ft-x-7ft-shipping-container-office"
-    ]
+    ],
+    "kw": "office container house",
+    "vol": "110",
+    "kd": "14"
   },
   {
+    "description": [
+      "If you are looking for an off grid container home, the 20ft Pre-Assembled Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $8,999 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a kitchen, large windows, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this off grid container home",
     "slug": "20ft-pre-assembled-container-home",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "20ft Pre-Assembled Container Home",
@@ -954,10 +980,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-145-3.webp"
     ],
     "summary": "20ft Pre-Assembled Container Home. Includes a kitchen, large windows, off-grid options. From $8,999, sales only.",
-    "description": [
-      "The 20ft Pre-Assembled Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $8,999 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a kitchen, large windows, off-grid options. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -987,6 +1009,11 @@ const ROWS: CatalogRow[] = [
     "kd": "2"
   },
   {
+    "description": [
+      "If you are looking for a shipping container concession stand, the 21ft x 8ft Custom Cabin Office / Canteen is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $9,090 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this shipping container concession stand",
     "slug": "21ft-x-8ft-custom-cabin-office-canteen",
     "categoryPath": "/shipping-container-offices/",
     "name": "21ft x 8ft Custom Cabin Office / Canteen",
@@ -1003,10 +1030,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1378-4.webp"
     ],
     "summary": "21ft x 8ft Custom Cabin Office / Canteen. Includes insulated walls, large windows. From $9,090, sales only.",
-    "description": [
-      "The 21ft x 8ft Custom Cabin Office / Canteen is a container building you can buy outright for delivery across the lower 48 states. The starting price of $9,090 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1030,9 +1053,17 @@ const ROWS: CatalogRow[] = [
       "20ft-custom-container-office-and-tiny-home",
       "modified-20ft-container-office-with-glass-door-and-ac",
       "7ft-x-7ft-shipping-container-office"
-    ]
+    ],
+    "kw": "shipping container concession stand",
+    "vol": "110",
+    "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a shipping container office conversion, the Converted 40ft Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $7,849 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, heating, large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this shipping container office conversion",
     "slug": "converted-40ft-shipping-container",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "Converted 40ft Shipping Container",
@@ -1049,10 +1080,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1357-4.webp"
     ],
     "summary": "Converted 40ft Shipping Container. Includes insulated walls, heating, large windows. From $7,849, sales only.",
-    "description": [
-      "The Converted 40ft Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $7,849 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, heating, large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -1076,9 +1103,17 @@ const ROWS: CatalogRow[] = [
       "used-40ft-shipping-container",
       "40ft-new-shipping-container",
       "40ft-storage-container-with-roll-up-side-doors"
-    ]
+    ],
+    "kw": "shipping container office conversion",
+    "vol": "170",
+    "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 20ft container office, the Modified 20ft container office with Glass door & AC is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $5,549 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include air conditioning, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft container office",
     "slug": "modified-20ft-container-office-with-glass-door-and-ac",
     "categoryPath": "/shipping-container-offices/",
     "name": "Modified 20ft container office with Glass door & AC",
@@ -1094,10 +1129,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1313-3.webp"
     ],
     "summary": "Modified 20ft container office. Includes air conditioning, large windows. From $5,549, sales only.",
-    "description": [
-      "The Modified 20ft container office with Glass door & AC is a container building you can buy outright for delivery across the lower 48 states. The starting price of $5,549 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include air conditioning, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1127,6 +1158,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 7ft x 7ft Shipping Container Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,889 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, off-grid options, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "7ft-x-7ft-shipping-container-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "7ft x 7ft Shipping Container Office",
@@ -1143,10 +1178,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1293-4.webp"
     ],
     "summary": "7ft x 7ft Shipping Container Office. Includes insulated walls, air conditioning, off-grid options. From $2,889, sales only.",
-    "description": [
-      "The 7ft x 7ft Shipping Container Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,889 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, off-grid options, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1173,6 +1204,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a portable office container, the 10ft ModiBox Portable Office Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,308 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this portable office container",
     "slug": "10ft-modibox-portable-office-container",
     "categoryPath": "/shipping-container-offices/",
     "name": "10ft ModiBox Portable Office Container",
@@ -1189,10 +1225,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1021-4.webp"
     ],
     "summary": "10ft ModiBox Portable Office Container. Includes insulated walls, air conditioning, LED lighting. From $3,308, sales only.",
-    "description": [
-      "The 10ft ModiBox Portable Office Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,308 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1222,6 +1254,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 15ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,565 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "15ft-modibox-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "15ft ModiBox Office",
@@ -1238,10 +1274,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1014-4.webp"
     ],
     "summary": "15ft ModiBox Office. Includes insulated walls, large windows. From $2,565, sales only.",
-    "description": [
-      "The 15ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,565 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1268,6 +1300,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 20ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,429 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-modibox-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft ModiBox Office",
@@ -1284,10 +1320,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1003-4.webp"
     ],
     "summary": "20ft ModiBox Office. Includes insulated walls. From $3,429, sales only.",
-    "description": [
-      "The 20ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,429 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1314,6 +1346,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a 30 foot shipping container, the 30ft ModiBox Office is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,690 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 30 foot shipping container",
     "slug": "30ft-modibox-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "30ft ModiBox Office",
@@ -1330,10 +1367,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-992-4.webp"
     ],
     "summary": "30ft ModiBox Office. Includes insulated walls, large windows. From $3,690, sales only.",
-    "description": [
-      "The 30ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,690 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1363,6 +1396,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a container shop, the Shipping Container Cafe is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,443 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, one-trip condition, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container shop",
     "slug": "shipping-container-cafe",
     "categoryPath": "/shipping-container-offices/",
     "name": "Shipping Container Cafe",
@@ -1379,10 +1417,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-979-4.webp"
     ],
     "summary": "Shipping Container Cafe. Includes insulated walls, one-trip condition, large windows. From $3,443, sales only.",
-    "description": [
-      "The Shipping Container Cafe is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,443 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, one-trip condition, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1412,6 +1446,11 @@ const ROWS: CatalogRow[] = [
     "kd": "9"
   },
   {
+    "description": [
+      "If you are looking for a mobile office container, the 20ft Mobile Office Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,767 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, extra height (9ft 6in), large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this mobile office container",
     "slug": "20ft-mobile-office-container",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft Mobile Office Container",
@@ -1428,10 +1467,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-903-4.webp"
     ],
     "summary": "20ft Mobile Office Container. Includes insulated walls, air conditioning, extra height (9ft 6in). From $3,767, sales only.",
-    "description": [
-      "The 20ft Mobile Office Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,767 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, extra height (9ft 6in), large windows, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1461,6 +1496,11 @@ const ROWS: CatalogRow[] = [
     "kd": "5"
   },
   {
+    "description": [
+      "If you are looking for a portable office, the 20ft Shipping Container Mobile Office is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $2,997 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this portable office",
     "slug": "20ft-shipping-container-mobile-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft Shipping Container Mobile Office",
@@ -1477,10 +1517,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-888-4.webp"
     ],
     "summary": "20ft Shipping Container Mobile Office. Includes insulated walls, large windows. From $2,997, sales only.",
-    "description": [
-      "The 20ft Shipping Container Mobile Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,997 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -1510,6 +1546,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 20ft High Cube Custom Shipping Container Conversion is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $6,849 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, roll-up doors, extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-high-cube-custom-shipping-container-conversion",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft High Cube Custom Shipping Container Conversion",
@@ -1526,10 +1566,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-171-4.webp"
     ],
     "summary": "20ft High Cube Custom Shipping. Includes insulated walls, roll-up doors, extra height (9ft 6in). From $6,849, sales only.",
-    "description": [
-      "The 20ft High Cube Custom Shipping Container Conversion is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $6,849 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, roll-up doors, extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -1556,6 +1592,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a custom shipping container, the 20ft Custom Shipping Container Conversion is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $9,045 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, roll-up doors, extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this custom shipping container",
     "slug": "20ft-custom-shipping-container-conversion",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Custom Shipping Container Conversion",
@@ -1571,10 +1612,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-140-3.webp"
     ],
     "summary": "20ft Custom Shipping Container Conversion. Includes insulated walls, roll-up doors, extra height (9ft 6in). From $9,045, sales only.",
-    "description": [
-      "The 20ft Custom Shipping Container Conversion is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $9,045 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, roll-up doors, extra height (9ft 6in), large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -1604,6 +1641,11 @@ const ROWS: CatalogRow[] = [
     "kd": "14"
   },
   {
+    "description": [
+      "If you are looking for a shipping container swimming pool, the 40ft Shipping Container Pool is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $9,995 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, extra height (9ft 6in), LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this shipping container swimming pool",
     "slug": "40ft-shipping-container-pool",
     "categoryPath": "/shipping-container-pools/",
     "name": "40ft Shipping Container Pool",
@@ -1620,10 +1662,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1285-4.webp"
     ],
     "summary": "40ft Shipping Container Pool. Includes insulated walls, extra height (9ft 6in), LED lighting. From $9,995, sales only.",
-    "description": [
-      "The 40ft Shipping Container Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $9,995 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, extra height (9ft 6in), LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1653,6 +1691,11 @@ const ROWS: CatalogRow[] = [
     "kd": "9"
   },
   {
+    "description": [
+      "If you are looking for a container pool, the 20ft Shipping Container Swimming Pool with Convenient Side Staircase is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,500 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include heating, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container pool",
     "slug": "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
     "categoryPath": "/shipping-container-pools/",
     "name": "20ft Shipping Container Swimming Pool with Convenient Side Staircase",
@@ -1669,10 +1712,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1274-4.webp"
     ],
     "summary": "20ft Shipping Container Swimming Pool. Includes heating, LED lighting. From $6,500, sales only.",
-    "description": [
-      "The 20ft Shipping Container Swimming Pool with Convenient Side Staircase is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,500 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include heating, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1702,6 +1741,10 @@ const ROWS: CatalogRow[] = [
     "kd": "5"
   },
   {
+    "description": [
+      "The 20ft Portable Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,450 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include heating, an outdoor deck or balcony, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-portable-container-swimming-pool",
     "categoryPath": "/shipping-container-pools/",
     "name": "20ft Portable Container Swimming Pool",
@@ -1718,10 +1761,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1257-4.webp"
     ],
     "summary": "20ft Portable Container Swimming Pool. Includes heating, an outdoor deck or balcony, LED lighting. From $6,450, sales only.",
-    "description": [
-      "The 20ft Portable Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,450 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include heating, an outdoor deck or balcony, LED lighting. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1748,6 +1787,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 20ft Mobile Foldable Fully Automatic Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,900 is the depot price, with delivery quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-mobile-foldable-fully-automatic-container-swimming-pool",
     "categoryPath": "/shipping-container-pools/",
     "name": "20ft Foldable Container Swimming Pool",
@@ -1759,10 +1802,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-mobile-foldable-fully-automatic-container-swimming-pool.webp",
     "gallery": [],
     "summary": "20ft Mobile Foldable Fully Automatic. From $6,900, sales only.",
-    "description": [
-      "The 20ft Mobile Foldable Fully Automatic Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,900 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1789,6 +1828,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a pool with a glass wall, the 20ft Luxury Container Swimming Pool with Glass Viewing Panel is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $23,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-luxury-container-swimming-pool-with-glass-viewing-panel",
     "categoryPath": "/shipping-container-pools/",
     "name": "20ft Luxury Container Swimming Pool with Glass Viewing Panel",
@@ -1805,10 +1848,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1239-4.webp"
     ],
     "summary": "20ft Luxury Container Swimming Pool. Includes large windows. From $23,000, sales only.",
-    "description": [
-      "The 20ft Luxury Container Swimming Pool with Glass Viewing Panel is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $23,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1832,9 +1871,17 @@ const ROWS: CatalogRow[] = [
       "40ft-shipping-container-pool",
       "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
       "20ft-portable-container-swimming-pool"
-    ]
+    ],
+    "kw": "pool with glass wall",
+    "vol": "260",
+    "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 40 foot container swimming pool, the 12M / 40ft Portable Container Swimming Pool is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $14,700 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include heating, an outdoor deck or balcony, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 40 foot container swimming pool",
     "slug": "12m-40ft-portable-container-swimming-pool",
     "categoryPath": "/shipping-container-pools/",
     "name": "12M / 40ft Portable Container Swimming Pool",
@@ -1851,10 +1898,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1222-4.webp"
     ],
     "summary": "12M / 40ft Portable Container Swimming Pool. Includes heating, an outdoor deck or balcony, large windows. From $14,700, sales only.",
-    "description": [
-      "The 12M / 40ft Portable Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $14,700 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include heating, an outdoor deck or balcony, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Shell",
@@ -1878,9 +1921,17 @@ const ROWS: CatalogRow[] = [
       "40ft-shipping-container-pool",
       "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
       "20ft-portable-container-swimming-pool"
-    ]
+    ],
+    "kw": "40 foot container swimming pool",
+    "vol": "320",
+    "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 10ft shipping container, the 10ft Used Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,575 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 10ft shipping container",
     "slug": "10ft-used-shipping-container-1132",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10ft Used Shipping Container",
@@ -1892,10 +1943,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-10ft-used-shipping-container-1132.webp",
     "gallery": [],
     "summary": "10ft Used Shipping Container. Includes roll-up doors, lockbox protection. From $1,575, sales only.",
-    "description": [
-      "The 10ft Used Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,575 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -1925,6 +1972,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 10ft container, the New 10ft Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,755 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 10ft container",
     "slug": "new-10ft-shipping-container",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "New 10ft Shipping Container",
@@ -1936,10 +1988,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-new-10ft-shipping-container.webp",
     "gallery": [],
     "summary": "New 10ft Shipping Container. Includes roll-up doors, lockbox protection. From $1,755, sales only.",
-    "description": [
-      "The New 10ft Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,755 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -1969,6 +2017,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 10' HC Used Container With Rollup Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,397 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors, extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10-hc-used-container-with-rollup-door",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10' HC Used Container With Rollup Door",
@@ -1985,10 +2037,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-914-4.webp"
     ],
     "summary": "10' HC Used Container With Rollup Door. Includes roll-up doors, extra height (9ft 6in). From $1,397, sales only.",
-    "description": [
-      "The 10' HC Used Container With Rollup Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,397 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2015,6 +2063,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 10ft High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,485 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10ft-high-cube-shipping-container",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10ft High Cube Shipping Container",
@@ -2031,10 +2083,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-713-4.webp"
     ],
     "summary": "10ft High Cube Shipping Container. Includes extra height (9ft 6in). From $1,485, sales only.",
-    "description": [
-      "The 10ft High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,485 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2061,6 +2109,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 10ft Shipping Container With Roll Up Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,620 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10ft-shipping-container-with-roll-up-door",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10ft Shipping Container With Roll Up Door",
@@ -2076,10 +2128,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-708-3.webp"
     ],
     "summary": "10ft Shipping Container With Roll Up Door. Includes roll-up doors. From $1,620, sales only.",
-    "description": [
-      "The 10ft Shipping Container With Roll Up Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,620 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2106,6 +2154,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a standard shipping container, the 20ft Used Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,895 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this standard shipping container",
     "slug": "20ft-used-shipping-container-1091",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Used Shipping Container",
@@ -2117,10 +2170,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-used-shipping-container-1091.webp",
     "gallery": [],
     "summary": "20ft Used Shipping Container. Includes roll-up doors, lockbox protection. From $1,895, sales only.",
-    "description": [
-      "The 20ft Used Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,895 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2144,9 +2193,16 @@ const ROWS: CatalogRow[] = [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
       "20ft-once-used-shipping-container"
-    ]
+    ],
+    "kw": "standard shipping container",
+    "vol": "480",
+    "kd": "23"
   },
   {
+    "description": [
+      "The 20ft Once-Used Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,475 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-once-used-shipping-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Once-Used Shipping Container",
@@ -2158,10 +2214,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-once-used-shipping-container.webp",
     "gallery": [],
     "summary": "20ft Once-Used Shipping Container. Includes roll-up doors, lockbox protection. From $2,475, sales only.",
-    "description": [
-      "The 20ft Once-Used Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,475 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2188,6 +2240,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a portable office building, the SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,993 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this portable office building",
     "slug": "self-assembly-site-offices-10ft-3-3m-x-2-3m",
     "categoryPath": "/shipping-container-offices/",
     "name": "SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m",
@@ -2204,10 +2261,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-957-4.webp"
     ],
     "summary": "SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m. From $1,993, sales only.",
-    "description": [
-      "The SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m is a container building you can buy outright for delivery across the lower 48 states. The starting price of $1,993 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -2231,9 +2284,17 @@ const ROWS: CatalogRow[] = [
       "20ft-custom-container-office-and-tiny-home",
       "21ft-x-8ft-custom-cabin-office-canteen",
       "modified-20ft-container-office-with-glass-door-and-ac"
-    ]
+    ],
+    "kw": "portable office building",
+    "vol": "720",
+    "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a 20ft storage container, the 20ft Standard Storage Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,261 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft storage container",
     "slug": "20ft-standard-storage-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Standard Storage Container",
@@ -2245,10 +2306,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-standard-storage-container.webp",
     "gallery": [],
     "summary": "20ft Standard Storage Container. From $1,261, sales only.",
-    "description": [
-      "The 20ft Standard Storage Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,261 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2278,6 +2335,11 @@ const ROWS: CatalogRow[] = [
     "kd": "12"
   },
   {
+    "description": [
+      "If you are looking for a 20ft cargo container, the 20ft Standard Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,665 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft cargo container",
     "slug": "20ft-standard-shipping-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Standard Shipping Container",
@@ -2294,10 +2356,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-739-4.webp"
     ],
     "summary": "20ft Standard Shipping Container. From $1,665, sales only.",
-    "description": [
-      "The 20ft Standard Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,665 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2327,6 +2385,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a high cube shipping container, the 20ft High Cube Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,638 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this high cube shipping container",
     "slug": "20ft-high-cube-shipping-container-730",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft High Cube Shipping Container",
@@ -2343,10 +2406,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-730-4.webp"
     ],
     "summary": "20ft High Cube Shipping Container. Includes extra height (9ft 6in). From $1,638, sales only.",
-    "description": [
-      "The 20ft High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,638 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2370,9 +2429,17 @@ const ROWS: CatalogRow[] = [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
       "20ft-used-shipping-container-1091"
-    ]
+    ],
+    "kw": "high cube shipping container",
+    "vol": "1000",
+    "kd": "6"
   },
   {
+    "description": [
+      "If you are looking for a double door shipping container, the 20ft End to End Tunnel Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $2,025 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include doors at both ends. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this double door shipping container",
     "slug": "20ft-end-to-end-tunnel-shipping-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft End to End Tunnel Shipping Container",
@@ -2389,10 +2456,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-722-4.webp"
     ],
     "summary": "20ft End to End Tunnel Shipping Container. Includes doors at both ends. From $2,025, sales only.",
-    "description": [
-      "The 20ft End to End Tunnel Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,025 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include doors at both ends. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2422,6 +2485,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 20ft Shipping Container With Roll Up Side Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,530 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-shipping-container-with-roll-up-side-doors",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Shipping Container With Roll Up Side Doors",
@@ -2433,10 +2500,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-shipping-container-with-roll-up-side-doors.webp",
     "gallery": [],
     "summary": "20ft Shipping Container With Roll Up. Includes roll-up doors, side access doors. From $1,530, sales only.",
-    "description": [
-      "The 20ft Shipping Container With Roll Up Side Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,530 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2463,6 +2526,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 20ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $3,150 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-one-trip-high-cube-shipping-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft One-Trip High Cube Shipping Container",
@@ -2478,10 +2545,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-516-3.webp"
     ],
     "summary": "20ft One-Trip High Cube Shipping Container. Includes extra height (9ft 6in), one-trip condition, lockbox protection. From $3,150, sales only.",
-    "description": [
-      "The 20ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $3,150 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2508,6 +2571,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 20ft High Cube Observation Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $5,850 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, extra height (9ft 6in), large windows, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-high-cube-observation-container",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft High Cube Observation Container",
@@ -2524,10 +2591,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-506-4.webp"
     ],
     "summary": "20ft High Cube Observation Container. Includes insulated walls, air conditioning, extra height (9ft 6in). From $5,850, sales only.",
-    "description": [
-      "The 20ft High Cube Observation Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $5,850 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, extra height (9ft 6in), large windows, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -2554,6 +2617,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a 20ft reefer container, the 20ft Refrigerated Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $5,000 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 20ft reefer container",
     "slug": "20ft-refrigerated-container",
     "categoryPath": "/shipping-containers-for-sale/",
     "name": "20ft Refrigerated Container",
@@ -2570,10 +2638,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-500-4.webp"
     ],
     "summary": "20ft Refrigerated Container. Includes a refrigeration unit. From $5,000, sales only.",
-    "description": [
-      "The 20ft Refrigerated Container is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $5,000 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Temperature-Controlled",
@@ -2603,6 +2667,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a prefab office building, the 20ft Prefab Container Office is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,500 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this prefab office building",
     "slug": "20ft-prefab-container-office",
     "categoryPath": "/shipping-container-offices/",
     "name": "20ft Prefab Container Office",
@@ -2618,10 +2687,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-495-3.webp"
     ],
     "summary": "20ft Prefab Container Office. From $6,500, sales only.",
-    "description": [
-      "The 20ft Prefab Container Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $6,500 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -2651,6 +2716,11 @@ const ROWS: CatalogRow[] = [
     "kd": "19"
   },
   {
+    "description": [
+      "If you are looking for a new 20ft shipping container, the 20ft One-Trip Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,850 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include side access doors, extra height (9ft 6in), one-trip condition, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this new 20ft shipping container",
     "slug": "20ft-one-trip-shipping-container-489",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft One-Trip Shipping Container",
@@ -2667,10 +2737,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-489-4.webp"
     ],
     "summary": "20ft One-Trip Shipping Container. Includes side access doors, extra height (9ft 6in), one-trip condition. From $3,850, sales only.",
-    "description": [
-      "The 20ft One-Trip Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $3,850 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors, extra height (9ft 6in), one-trip condition, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2694,9 +2760,16 @@ const ROWS: CatalogRow[] = [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
       "20ft-used-shipping-container-1091"
-    ]
+    ],
+    "kw": "new 20ft shipping container",
+    "vol": "390",
+    "kd": "0"
   },
   {
+    "description": [
+      "The 20ft High Cube Full Side Access Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,050 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include side access doors, extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-high-cube-full-side-access-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft High Cube Full Side Access Container",
@@ -2713,10 +2786,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-483-4.webp"
     ],
     "summary": "20ft High Cube Full Side Access Container. Includes side access doors, extra height (9ft 6in), one-trip condition. From $4,050, sales only.",
-    "description": [
-      "The 20ft High Cube Full Side Access Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,050 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors, extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2743,6 +2812,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for an used 40ft container, the Used 40ft Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,935 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this used 40ft container",
     "slug": "used-40ft-shipping-container",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "Used 40ft Shipping Container",
@@ -2759,10 +2833,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-1036-4.webp"
     ],
     "summary": "Used 40ft Shipping Container. Includes roll-up doors, lockbox protection. From $1,935, sales only.",
-    "description": [
-      "The Used 40ft Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,935 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2792,6 +2862,10 @@ const ROWS: CatalogRow[] = [
     "kd": "7"
   },
   {
+    "description": [
+      "Checking the 40ft container price? The 40ft New Shipping Container starts at $2,795 at the depot, and we sell it outright with delivery across the lower 48 states. Delivery is quoted for your ZIP code.",
+      "Listed features include side access doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-new-shipping-container",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "40ft New Shipping Container",
@@ -2803,10 +2877,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-40ft-new-shipping-container.webp",
     "gallery": [],
     "summary": "40ft New Shipping Container. Includes side access doors, lockbox protection. From $2,795, sales only.",
-    "description": [
-      "The 40ft New Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,795 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2836,6 +2906,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 40ft High Cube One Trip Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,700 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-high-cube-one-trip-shipping-container-953",
     "categoryPath": "/40ft-high-cube-shipping-containers-for-sale/",
     "name": "40ft High Cube One Trip Shipping Container",
@@ -2847,10 +2921,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-40ft-high-cube-one-trip-shipping-container-953.webp",
     "gallery": [],
     "summary": "40ft High Cube One Trip Shipping Container. Includes extra height (9ft 6in), one-trip condition. From $2,700, sales only.",
-    "description": [
-      "The 40ft High Cube One Trip Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,700 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2877,6 +2947,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a 40ft storage container, the 40ft Storage Container With Roll Up Side Doors is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,950 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 40ft storage container",
     "slug": "40ft-storage-container-with-roll-up-side-doors",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "40ft Storage Container With Roll Up Side Doors",
@@ -2892,10 +2967,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-771-3.webp"
     ],
     "summary": "40ft Storage Container With Roll Up Side Doors. Includes roll-up doors, side access doors. From $4,950, sales only.",
-    "description": [
-      "The 40ft Storage Container With Roll Up Side Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,950 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2925,6 +2996,11 @@ const ROWS: CatalogRow[] = [
     "kd": "8"
   },
   {
+    "description": [
+      "If you are looking for an open side shipping container, the 40ft Open Side Doors Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,050 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this open side shipping container",
     "slug": "40ft-open-side-doors-shipping-container",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "40ft Open Side Doors Shipping Container",
@@ -2941,10 +3017,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-762-4.webp"
     ],
     "summary": "40ft Open Side Doors Shipping Container. Includes side access doors. From $4,050, sales only.",
-    "description": [
-      "The 40ft Open Side Doors Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,050 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -2974,6 +3046,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 40ft End to End Tunnel Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $3,285 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include doors at both ends. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-end-to-end-tunnel-shipping-container",
     "categoryPath": "/40ft-shipping-containers-for-sale/",
     "name": "40ft End to End Tunnel Shipping Container",
@@ -2989,10 +3065,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-757-3.webp"
     ],
     "summary": "40ft End to End Tunnel Shipping Container. Includes doors at both ends. From $3,285, sales only.",
-    "description": [
-      "The 40ft End to End Tunnel Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $3,285 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include doors at both ends. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3019,6 +3091,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a reefer container, the 40ft Refrigerated Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,030 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this reefer container",
     "slug": "40ft-refrigerated-shipping-container",
     "categoryPath": "/shipping-containers-for-sale/",
     "name": "40ft Refrigerated Shipping Container",
@@ -3035,10 +3112,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-748-4.webp"
     ],
     "summary": "40ft Refrigerated Shipping Container. Includes a refrigeration unit. From $6,030, sales only.",
-    "description": [
-      "The 40ft Refrigerated Shipping Container is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $6,030 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Temperature-Controlled",
@@ -3068,6 +3141,10 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "The 40ft Full Side Access High Cube Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $6,500 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include side access doors, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-full-side-access-high-cube-container",
     "categoryPath": "/40ft-high-cube-shipping-containers-for-sale/",
     "name": "40ft Full Side Access High Cube Container",
@@ -3084,10 +3161,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-330-4.webp"
     ],
     "summary": "40ft Full Side Access High Cube Container. Includes side access doors, extra height (9ft 6in), one-trip condition. From $6,500, sales only.",
-    "description": [
-      "The 40ft Full Side Access High Cube Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $6,500 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3114,6 +3187,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 40ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,950 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "40ft-one-trip-high-cube-shipping-container",
     "categoryPath": "/40ft-high-cube-shipping-containers-for-sale/",
     "name": "40ft One-Trip High Cube Shipping Container",
@@ -3130,10 +3207,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-323-4.webp"
     ],
     "summary": "40ft One-Trip High Cube Shipping Container. Includes extra height (9ft 6in), one-trip condition, lockbox protection. From $4,950, sales only.",
-    "description": [
-      "The 40ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $4,950 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3160,6 +3233,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a 40ft high cube container, the 40ft High Cube Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $6,595 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include side access doors, doors at both ends, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 40ft high cube container",
     "slug": "40ft-high-cube-shipping-container",
     "categoryPath": "/40ft-high-cube-shipping-containers-for-sale/",
     "name": "40ft High Cube Shipping Container",
@@ -3175,10 +3253,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-318-3.webp"
     ],
     "summary": "40ft High Cube Shipping Container. Includes side access doors, doors at both ends, extra height (9ft 6in). From $6,595, sales only.",
-    "description": [
-      "The 40ft High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $6,595 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include side access doors, doors at both ends, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3208,6 +3282,10 @@ const ROWS: CatalogRow[] = [
     "kd": "14"
   },
   {
+    "description": [
+      "The 20ft High Cube Double Door New (One Trip) Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,564 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include doors at both ends, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-high-cube-double-door-new-one-trip-shipping-container",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft High Cube Double Door New (One Trip) Shipping Container",
@@ -3219,10 +3297,6 @@ const ROWS: CatalogRow[] = [
     "image": "/images/atlas-20ft-high-cube-double-door-new-one-trip-shipping-container.webp",
     "gallery": [],
     "summary": "20ft High Cube Double Door New (One Trip). Includes doors at both ends, extra height (9ft 6in), one-trip condition. From $1,564, sales only.",
-    "description": [
-      "The 20ft High Cube Double Door New (One Trip) Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,564 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include doors at both ends, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3249,6 +3323,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for an insulated shipping container, the 10ft Accommodation Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,200 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, heating, large windows, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this insulated shipping container",
     "slug": "10ft-accommodation-container",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "10ft Accommodation Container",
@@ -3265,10 +3344,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-561-4.webp"
     ],
     "summary": "10ft Accommodation Container. Includes insulated walls, heating, large windows. From $4,200, sales only.",
-    "description": [
-      "The 10ft Accommodation Container is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,200 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, heating, large windows, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -3298,6 +3373,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a container bar, the 10ft Bar Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,300 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this container bar",
     "slug": "10ft-bar-container",
     "categoryPath": "/shipping-container-offices/",
     "name": "10ft Bar Container",
@@ -3313,10 +3393,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-556-3.webp"
     ],
     "summary": "10ft Bar Container. Includes lockbox protection. From $4,300, sales only.",
-    "description": [
-      "The 10ft Bar Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $4,300 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Ready to Work In",
@@ -3346,6 +3422,10 @@ const ROWS: CatalogRow[] = [
     "kd": "14"
   },
   {
+    "description": [
+      "The 10ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,500 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10ft-one-trip-high-cube-shipping-container",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10ft One-Trip High Cube Shipping Container",
@@ -3361,10 +3441,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-545-3.webp"
     ],
     "summary": "10ft One-Trip High Cube Shipping Container. Includes extra height (9ft 6in), one-trip condition, lockbox protection. From $2,500, sales only.",
-    "description": [
-      "The 10ft One-Trip High Cube Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,500 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), one-trip condition, lockbox protection, CSC plate. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3391,6 +3467,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 10ft Refrigerated Shipping Container is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $3,500 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include CSC plate, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10ft-refrigerated-shipping-container",
     "categoryPath": "/shipping-containers-for-sale/",
     "name": "10ft Refrigerated Shipping Container",
@@ -3407,10 +3487,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-539-4.webp"
     ],
     "summary": "10ft Refrigerated Shipping Container. Includes CSC plate, a refrigeration unit. From $3,500, sales only.",
-    "description": [
-      "The 10ft Refrigerated Shipping Container is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $3,500 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include CSC plate, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Temperature-Controlled",
@@ -3437,6 +3513,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "The 10ft Shipping Container with End Roll-Up Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,350 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "10ft-shipping-container-with-end-roll-up-door",
     "categoryPath": "/10ft-shipping-containers-for-sale/",
     "name": "10ft Shipping Container with End Roll-Up Door",
@@ -3451,10 +3531,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-535-2.webp"
     ],
     "summary": "10ft Shipping Container with End Roll-Up Door. Includes roll-up doors. From $1,350, sales only.",
-    "description": [
-      "The 10ft Shipping Container with End Roll-Up Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,350 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3481,6 +3557,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a guard shack, the Gray Guard Shack With AC is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,510 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this guard shack",
     "slug": "gray-guard-shack-with-ac",
     "categoryPath": "/modified-shipping-containers/",
     "name": "Gray Guard Shack With AC",
@@ -3497,10 +3578,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-695-4.webp"
     ],
     "summary": "Gray Guard Shack With AC. Includes insulated walls, air conditioning, heating. From $3,510, sales only.",
-    "description": [
-      "The Gray Guard Shack With AC is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $3,510 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3530,6 +3607,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a guard booth, the Blue Guard Booth With AC & Heating is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,420 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this guard booth",
     "slug": "blue-guard-booth-with-ac-and-heating",
     "categoryPath": "/modified-shipping-containers/",
     "name": "Blue Guard Booth With AC & Heating",
@@ -3546,10 +3628,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-684-4.webp"
     ],
     "summary": "Blue Guard Booth With AC & Heating. Includes insulated walls, air conditioning, heating. From $3,420, sales only.",
-    "description": [
-      "The Blue Guard Booth With AC & Heating is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $3,420 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3579,6 +3657,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a portable guard shack, the Light Gray Guard Booth With AC is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $3,780 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this portable guard shack",
     "slug": "light-gray-guard-booth-with-ac",
     "categoryPath": "/modified-shipping-containers/",
     "name": "Light Gray Guard Booth With AC",
@@ -3595,10 +3678,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-673-4.webp"
     ],
     "summary": "Light Gray Guard Booth With AC. Includes insulated walls, air conditioning, heating. From $3,780, sales only.",
-    "description": [
-      "The Light Gray Guard Booth With AC is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $3,780 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3628,6 +3707,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a prefab guard house, the BW Guard Shack With AC & Heating is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $5,220 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this prefab guard house",
     "slug": "bw-guard-shack-with-ac-and-heating",
     "categoryPath": "/modified-shipping-containers/",
     "name": "BW Guard Shack With AC & Heating",
@@ -3644,10 +3728,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-663-4.webp"
     ],
     "summary": "BW Guard Shack With AC & Heating. Includes insulated walls, air conditioning, heating. From $5,220, sales only.",
-    "description": [
-      "The BW Guard Shack With AC & Heating is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $5,220 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3677,6 +3757,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a security guard booth, the Stainless Steel Guard Shack With AC is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,950 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this security guard booth",
     "slug": "stainless-steel-guard-shack-with-ac",
     "categoryPath": "/modified-shipping-containers/",
     "name": "Stainless Steel Guard Shack With AC",
@@ -3693,10 +3778,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-654-4.webp"
     ],
     "summary": "Stainless Steel Guard Shack With AC. Includes insulated walls, air conditioning, heating. From $4,950, sales only.",
-    "description": [
-      "The Stainless Steel Guard Shack With AC is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $4,950 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3726,6 +3807,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a security booth, the Security Guard Shack With AC & Heating is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $8,010 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this security booth",
     "slug": "security-guard-shack-with-ac-and-heating",
     "categoryPath": "/modified-shipping-containers/",
     "name": "Security Guard Shack With AC & Heating",
@@ -3742,10 +3828,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-647-4.webp"
     ],
     "summary": "Security Guard Shack With AC & Heating. Includes insulated walls, air conditioning, heating. From $8,010, sales only.",
-    "description": [
-      "The Security Guard Shack With AC & Heating is a guard booth you can buy outright for delivery across the lower 48 states. The starting price of $8,010 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, air conditioning, heating, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Insulated Booth",
@@ -3775,6 +3857,11 @@ const ROWS: CatalogRow[] = [
     "kd": "15"
   },
   {
+    "description": [
+      "If you are looking for a shipping container with roll up door, the 20ft Container With Roll Up Doors is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,863 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this shipping container with roll up door",
     "slug": "20ft-container-with-roll-up-doors",
     "categoryPath": "/20ft-shipping-containers-for-sale/",
     "name": "20ft Container With Roll Up Doors",
@@ -3791,10 +3878,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-896-4.webp"
     ],
     "summary": "20ft Container With Roll Up Doors. Includes roll-up doors, side access doors. From $1,863, sales only.",
-    "description": [
-      "The 20ft Container With Roll Up Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,863 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Steel Container Build",
@@ -3818,9 +3901,16 @@ const ROWS: CatalogRow[] = [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
       "20ft-used-shipping-container-1091"
-    ]
+    ],
+    "kw": "shipping container with roll up door",
+    "vol": "1000",
+    "kd": "0"
   },
   {
+    "description": [
+      "The 12' Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,703 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include roll-up doors, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "12-small-cubic-shipping-container",
     "categoryPath": "/storage-containers-for-sale/",
     "name": "12' Small Cubic Shipping Container",
@@ -3837,10 +3927,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-862-4.webp"
     ],
     "summary": "12' Small Cubic Shipping Container. Includes roll-up doors, large windows. From $2,703, sales only.",
-    "description": [
-      "The 12' Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,703 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Compact Footprint",
@@ -3867,6 +3953,10 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for portable storage containers, the 8ft Small Cubic Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $2,320 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "8ft-small-cubic-shipping-container",
     "categoryPath": "/storage-containers-for-sale/",
     "name": "8ft Small Cubic Shipping Container",
@@ -3883,10 +3973,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-848-4.webp"
     ],
     "summary": "8ft Small Cubic Shipping Container. Includes large windows. From $2,320, sales only.",
-    "description": [
-      "The 8ft Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,320 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Compact Footprint",
@@ -3910,9 +3996,17 @@ const ROWS: CatalogRow[] = [
       "12-small-cubic-shipping-container",
       "12ft-small-cubic-shipping-container",
       "7ft-small-cubic-shipping-container"
-    ]
+    ],
+    "kw": "portable storage containers for sale",
+    "vol": "480",
+    "kd": "11"
   },
   {
+    "description": [
+      "If you are looking for a 12 ft shipping container, the 12ft Small Cubic Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $2,551 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 12 ft shipping container",
     "slug": "12ft-small-cubic-shipping-container",
     "categoryPath": "/storage-containers-for-sale/",
     "name": "12ft Small Cubic Shipping Container",
@@ -3929,10 +4023,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-839-4.webp"
     ],
     "summary": "12ft Small Cubic Shipping Container. Includes large windows. From $2,551, sales only.",
-    "description": [
-      "The 12ft Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,551 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Compact Footprint",
@@ -3962,6 +4052,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a mini shipping container, the 7ft Small Cubic Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,350 is the depot price, and delivery is quoted for your ZIP code.",
+      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this mini shipping container",
     "slug": "7ft-small-cubic-shipping-container",
     "categoryPath": "/storage-containers-for-sale/",
     "name": "7ft Small Cubic Shipping Container",
@@ -3978,10 +4073,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-822-4.webp"
     ],
     "summary": "7ft Small Cubic Shipping Container. From $1,350, sales only.",
-    "description": [
-      "The 7ft Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $1,350 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Compact Footprint",
@@ -4011,6 +4102,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a small shipping container, the 9ft Small Cubic Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $2,442 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this small shipping container",
     "slug": "9ft-small-cubic-shipping-container",
     "categoryPath": "/storage-containers-for-sale/",
     "name": "9ft Small Cubic Shipping Container",
@@ -4027,10 +4123,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-808-4.webp"
     ],
     "summary": "9ft Small Cubic Shipping Container. Includes large windows. From $2,442, sales only.",
-    "description": [
-      "The 9ft Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,442 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include large windows. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Compact Footprint",
@@ -4060,6 +4152,11 @@ const ROWS: CatalogRow[] = [
     "kd": "11"
   },
   {
+    "description": [
+      "If you are looking for a 2 bedroom container home, the 2 Bedroom Refurbished Shipping Container Home is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $19,699 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 2 bedroom layout, insulated walls, air conditioning, a kitchen, a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this 2 bedroom container home",
     "slug": "2-bedroom-refurbished-shipping-container-home",
     "categoryPath": "/shipping-container-homes-for-sale/",
     "name": "2 Bedroom Refurbished Shipping Container Home",
@@ -4076,10 +4173,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-796-4.webp"
     ],
     "summary": "2 Bedroom Refurbished Shipping Container Home. Includes 2 bedroom layout, insulated walls, air conditioning. From $19,699, sales only.",
-    "description": [
-      "The 2 Bedroom Refurbished Shipping Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $19,699 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 2 bedroom layout, insulated walls, air conditioning, a kitchen, a bathroom. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -4109,6 +4202,11 @@ const ROWS: CatalogRow[] = [
     "kd": "0"
   },
   {
+    "description": [
+      "If you are looking for a portable cabin, the 1 Bedroom Portable Cabin with Verandah is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $16,929 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include 1 bedroom layout, insulated walls, a kitchen, a bathroom, an outdoor deck or balcony. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this portable cabin",
     "slug": "1-bedroom-portable-cabin-with-verandah",
     "categoryPath": "/shipping-container-cabins/",
     "name": "1 Bedroom Portable Cabin with Verandah",
@@ -4125,10 +4223,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-776-4.webp"
     ],
     "summary": "1 Bedroom Portable Cabin with Verandah. Includes 1 bedroom layout, insulated walls, a kitchen. From $16,929, sales only.",
-    "description": [
-      "The 1 Bedroom Portable Cabin with Verandah is a container cabin you can buy outright for delivery across the lower 48 states. The starting price of $16,929 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include 1 bedroom layout, insulated walls, a kitchen, a bathroom, an outdoor deck or balcony. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Prefab Container Build",
@@ -4156,6 +4250,10 @@ const ROWS: CatalogRow[] = [
     "kd": "3"
   },
   {
+    "description": [
+      "The 20ft Refrigerated Container (Unit B) is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $4,320 is the depot price, with delivery quoted for your ZIP code.",
+      "Listed features include insulated walls, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
     "slug": "20ft-refrigerated-container-unit-b",
     "categoryPath": "/shipping-containers-for-sale/",
     "name": "20ft Refrigerated Container (Unit B)",
@@ -4172,10 +4270,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-939-4.webp"
     ],
     "summary": "20ft Refrigerated Container (Unit B). Includes insulated walls, a refrigeration unit. From $4,320, sales only.",
-    "description": [
-      "The 20ft Refrigerated Container (Unit B) is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $4,320 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Temperature-Controlled",
@@ -4202,6 +4296,11 @@ const ROWS: CatalogRow[] = [
     ]
   },
   {
+    "description": [
+      "If you are looking for a refrigerated shipping container, the 20ft Refrigerated Container (Unit A) is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $4,365 is the depot price, and delivery is quoted for your ZIP code.",
+      "Listed features include insulated walls, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
+    ],
+    "about": "About this refrigerated shipping container",
     "slug": "20ft-refrigerated-container-unit-a",
     "categoryPath": "/shipping-containers-for-sale/",
     "name": "20ft Refrigerated Container (Unit A)",
@@ -4217,10 +4316,6 @@ const ROWS: CatalogRow[] = [
       "/images/atlas-g-934-3.webp"
     ],
     "summary": "20ft Refrigerated Container (Unit A). Includes insulated walls, a refrigeration unit. From $4,365, sales only.",
-    "description": [
-      "The 20ft Refrigerated Container (Unit A) is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $4,365 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include insulated walls, a refrigeration unit. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
     "features": [
       {
         "label": "Temperature-Controlled",
@@ -4288,7 +4383,7 @@ function toProduct(r: CatalogRow): ProductPageData {
     features: r.features,
     bestFor: r.bestFor,
     relatedProducts: r.related,
-    aboutHeading: `About this ${r.typeLabel}`,
+    aboutHeading: r.about ?? `About this ${r.typeLabel}`,
     noindex: r.kw ? undefined : true,
     faqs: [
       {
