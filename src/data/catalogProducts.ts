@@ -37,7 +37,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "container home",
     "typeLabel": "container home",
     "image": "/images/atlas-luxury-3-bedroom-prefabricated-modular-container-home-villa.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1432-1.webp",
+      "/images/atlas-g-1432-2.webp",
+      "/images/atlas-g-1432-3.webp",
+      "/images/atlas-g-1432-4.webp"
+    ],
     "summary": "Luxury 3 Bedroom. Includes 3 bedroom layout, insulated walls, large windows. From $95,700, sales only.",
     "description": [
       "The Luxury 3 Bedroom Prefabricated Modular Container Home Villa is a container home you can buy outright for delivery across the lower 48 states. The starting price of $95,700 is the depot price, with delivery quoted for your ZIP code.",
@@ -81,7 +86,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "container home",
     "typeLabel": "container home",
     "image": "/images/atlas-luxury-1bhk-duplex-container-home-with-spacious-outdoor-deck.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1426-1.webp",
+      "/images/atlas-g-1426-2.webp",
+      "/images/atlas-g-1426-3.webp",
+      "/images/atlas-g-1426-4.webp"
+    ],
     "summary": "Luxury 1BHK Duplex Container Home. Includes 1 bedroom layout, insulated walls, an outdoor deck or balcony. From $54,999, sales only.",
     "description": [
       "The Luxury 1BHK Duplex Container Home with Spacious Outdoor Deck is a container home you can buy outright for delivery across the lower 48 states. The starting price of $54,999 is the depot price, with delivery quoted for your ZIP code.",
@@ -125,7 +135,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "container home",
     "typeLabel": "container home",
     "image": "/images/atlas-4-bedroom-2-story-luxury-modular-container-home-villa.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1419-1.webp",
+      "/images/atlas-g-1419-2.webp",
+      "/images/atlas-g-1419-3.webp",
+      "/images/atlas-g-1419-4.webp"
+    ],
     "summary": "4 Bedroom 2 Story. Includes 4 bedroom layout, insulated walls, an outdoor deck or balcony. From $48,000, sales only.",
     "description": [
       "The 4 Bedroom 2 Story Luxury Modular Container Home Villa is a container home you can buy outright for delivery across the lower 48 states. The starting price of $48,000 is the depot price, with delivery quoted for your ZIP code.",
@@ -169,7 +184,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "container home",
     "typeLabel": "container home",
     "image": "/images/atlas-modern-single-storey-container-house-with-spacious-deck.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1410-1.webp",
+      "/images/atlas-g-1410-2.webp",
+      "/images/atlas-g-1410-3.webp",
+      "/images/atlas-g-1410-4.webp"
+    ],
     "summary": "Modern Single-Storey Container House. Includes insulated walls, an outdoor deck or balcony, off-grid options. From $46,000, sales only.",
     "description": [
       "The Modern Single-Storey Container House with Spacious Deck is a container home you can buy outright for delivery across the lower 48 states. The starting price of $46,000 is the depot price, with delivery quoted for your ZIP code.",
@@ -213,7 +233,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "tiny home",
     "typeLabel": "tiny home",
     "image": "/images/atlas-luxury-1-bedroom-tiny-home-with-rooftop-deck.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1402-1.webp",
+      "/images/atlas-g-1402-2.webp",
+      "/images/atlas-g-1402-3.webp",
+      "/images/atlas-g-1402-4.webp"
+    ],
     "summary": "Luxury 1 Bedroom Tiny Home with Rooftop Deck. Includes 1 bedroom layout, insulated walls, a bathroom. From $34,999, sales only.",
     "description": [
       "The Luxury 1 Bedroom Tiny Home with Rooftop Deck is a tiny home you can buy outright for delivery across the lower 48 states. The starting price of $34,999 is the depot price, with delivery quoted for your ZIP code.",
@@ -253,7 +278,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-luxury-40ft-prefab-container-house-with-easy-folding-sandwic.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1396-1.webp",
+      "/images/atlas-g-1396-2.webp",
+      "/images/atlas-g-1396-3.webp",
+      "/images/atlas-g-1396-4.webp"
+    ],
     "summary": "Luxury 40ft prefab container house. From $30,490, sales only.",
     "description": [
       "The Luxury 40ft prefab container house with easy-folding sandwich panels is a container home you can buy outright for delivery across the lower 48 states. The starting price of $30,490 is the depot price, with delivery quoted for your ZIP code.",
@@ -297,7 +327,11 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-customized-40ft-shipping-container-made-into-luxurious-1-bed.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1391-1.webp",
+      "/images/atlas-g-1391-2.webp",
+      "/images/atlas-g-1391-3.webp"
+    ],
     "summary": "Customized 40ft Shipping. Includes 1 bedroom layout, insulated walls, a kitchen. From $14,549, sales only.",
     "description": [
       "The Customized 40ft Shipping Container Made into Luxurious 1 Bedroom is a container home you can buy outright for delivery across the lower 48 states. The starting price of $14,549 is the depot price, with delivery quoted for your ZIP code.",
@@ -341,7 +375,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-40ft-ready-made-villa-design-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1371-1.webp",
+      "/images/atlas-g-1371-2.webp",
+      "/images/atlas-g-1371-3.webp",
+      "/images/atlas-g-1371-4.webp"
+    ],
     "summary": "40ft Ready Made Villa Design Container House. Includes insulated walls, an outdoor deck or balcony, large windows. From $8,440, sales only.",
     "description": [
       "The 40ft Ready Made Villa Design Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $8,440 is the depot price, with delivery quoted for your ZIP code.",
@@ -385,7 +424,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-custom-40ft-shipping-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1347-1.webp",
+      "/images/atlas-g-1347-2.webp",
+      "/images/atlas-g-1347-3.webp",
+      "/images/atlas-g-1347-4.webp"
+    ],
     "summary": "Custom 40ft Shipping Container House. Includes a kitchen, a bathroom, off-grid options. From $7,549, sales only.",
     "description": [
       "The Custom 40ft Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $7,549 is the depot price, with delivery quoted for your ZIP code.",
@@ -429,7 +473,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container cabin",
     "image": "/images/atlas-custom-20ft-cozy-cabin-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1338-1.webp",
+      "/images/atlas-g-1338-2.webp",
+      "/images/atlas-g-1338-3.webp",
+      "/images/atlas-g-1338-4.webp"
+    ],
     "summary": "Custom 20ft Cozy Cabin Container House. Includes insulated walls, a kitchen, a bathroom. From $7,149, sales only.",
     "description": [
       "The Custom 20ft Cozy Cabin Container House is a container cabin you can buy outright for delivery across the lower 48 states. The starting price of $7,149 is the depot price, with delivery quoted for your ZIP code.",
@@ -471,7 +520,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container home",
     "image": "/images/atlas-fully-equipped-20ft-shipping-container-home.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1328-1.webp",
+      "/images/atlas-g-1328-2.webp",
+      "/images/atlas-g-1328-3.webp",
+      "/images/atlas-g-1328-4.webp"
+    ],
     "summary": "Fully Equipped 20ft Shipping Container Home. Includes heating, a kitchen, a bathroom. From $6,900, sales only.",
     "description": [
       "The Fully Equipped 20ft Shipping Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,900 is the depot price, with delivery quoted for your ZIP code.",
@@ -515,7 +569,11 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container home",
     "image": "/images/atlas-high-quality-20ft-prefab-shipping-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1323-1.webp",
+      "/images/atlas-g-1323-2.webp",
+      "/images/atlas-g-1323-3.webp"
+    ],
     "summary": "High Quality 20ft Prefab Shipping. From $6,430, sales only.",
     "description": [
       "The High Quality 20ft Prefab Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,430 is the depot price, with delivery quoted for your ZIP code.",
@@ -559,7 +617,11 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-40ft-luxury-good-quality-prefab-modern-container-home.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1318-1.webp",
+      "/images/atlas-g-1318-2.webp",
+      "/images/atlas-g-1318-3.webp"
+    ],
     "summary": "40ft Luxury Good Quality Prefab Modern. Includes insulated walls. From $6,349, sales only.",
     "description": [
       "The 40ft Luxury Good Quality Prefab Modern Container Home is a container home you can buy outright for delivery across the lower 48 states. The starting price of $6,349 is the depot price, with delivery quoted for your ZIP code.",
@@ -603,7 +665,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container home",
     "image": "/images/atlas-custom-20ft-shipping-container-home-with-water-tank.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1307-1.webp",
+      "/images/atlas-g-1307-2.webp",
+      "/images/atlas-g-1307-3.webp",
+      "/images/atlas-g-1307-4.webp"
+    ],
     "summary": "Custom 20ft Shipping Container Home. Includes a kitchen, a bathroom, a water tank. From $4,549, sales only.",
     "description": [
       "The Custom 20ft Shipping Container Home With Water Tank is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,549 is the depot price, with delivery quoted for your ZIP code.",
@@ -647,7 +714,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container home",
     "image": "/images/atlas-custom-20ft-shipping-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1301-1.webp",
+      "/images/atlas-g-1301-2.webp",
+      "/images/atlas-g-1301-3.webp",
+      "/images/atlas-g-1301-4.webp"
+    ],
     "summary": "Custom 20ft Shipping Container House. Includes insulated walls, air conditioning, heating. From $4,049, sales only.",
     "description": [
       "The Custom 20ft Shipping Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $4,049 is the depot price, with delivery quoted for your ZIP code.",
@@ -688,7 +760,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container home",
     "image": "/images/atlas-20ft-modified-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-880-1.webp",
+      "/images/atlas-g-880-2.webp",
+      "/images/atlas-g-880-3.webp",
+      "/images/atlas-g-880-4.webp"
+    ],
     "summary": "20ft Modified Container House. Includes a bathroom. From $13,038, sales only.",
     "description": [
       "The 20ft Modified Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $13,038 is the depot price, with delivery quoted for your ZIP code.",
@@ -732,7 +809,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container home",
     "image": "/images/atlas-40ft-modified-container-house.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-869-1.webp",
+      "/images/atlas-g-869-2.webp",
+      "/images/atlas-g-869-3.webp",
+      "/images/atlas-g-869-4.webp"
+    ],
     "summary": "40ft Modified Container House. Includes a bathroom. From $35,100, sales only.",
     "description": [
       "The 40ft Modified Container House is a container home you can buy outright for delivery across the lower 48 states. The starting price of $35,100 is the depot price, with delivery quoted for your ZIP code.",
@@ -914,7 +996,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "21ft",
     "typeLabel": "container building",
     "image": "/images/atlas-21ft-x-8ft-custom-cabin-office-canteen.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1378-1.webp",
+      "/images/atlas-g-1378-2.webp",
+      "/images/atlas-g-1378-3.webp",
+      "/images/atlas-g-1378-4.webp"
+    ],
     "summary": "21ft x 8ft Custom Cabin Office / Canteen. Includes insulated walls, large windows. From $9,090, sales only.",
     "description": [
       "The 21ft x 8ft Custom Cabin Office / Canteen is a container building you can buy outright for delivery across the lower 48 states. The starting price of $9,090 is the depot price, with delivery quoted for your ZIP code.",
@@ -955,7 +1042,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "shipping container",
     "image": "/images/atlas-converted-40ft-shipping-container.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1357-1.webp",
+      "/images/atlas-g-1357-2.webp",
+      "/images/atlas-g-1357-3.webp",
+      "/images/atlas-g-1357-4.webp"
+    ],
     "summary": "Converted 40ft Shipping Container. Includes insulated walls, heating, large windows. From $7,849, sales only.",
     "description": [
       "The Converted 40ft Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $7,849 is the depot price, with delivery quoted for your ZIP code.",
@@ -996,7 +1088,11 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container building",
     "image": "/images/atlas-modified-20ft-container-office-with-glass-door-and-ac.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1313-1.webp",
+      "/images/atlas-g-1313-2.webp",
+      "/images/atlas-g-1313-3.webp"
+    ],
     "summary": "Modified 20ft container office. Includes air conditioning, large windows. From $5,549, sales only.",
     "description": [
       "The Modified 20ft container office with Glass door & AC is a container building you can buy outright for delivery across the lower 48 states. The starting price of $5,549 is the depot price, with delivery quoted for your ZIP code.",
@@ -1040,7 +1136,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "7ft",
     "typeLabel": "container building",
     "image": "/images/atlas-7ft-x-7ft-shipping-container-office.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1293-1.webp",
+      "/images/atlas-g-1293-2.webp",
+      "/images/atlas-g-1293-3.webp",
+      "/images/atlas-g-1293-4.webp"
+    ],
     "summary": "7ft x 7ft Shipping Container Office. Includes insulated walls, air conditioning, off-grid options. From $2,889, sales only.",
     "description": [
       "The 7ft x 7ft Shipping Container Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,889 is the depot price, with delivery quoted for your ZIP code.",
@@ -1081,7 +1182,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "10ft",
     "typeLabel": "container building",
     "image": "/images/atlas-10ft-modibox-portable-office-container.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1021-1.webp",
+      "/images/atlas-g-1021-2.webp",
+      "/images/atlas-g-1021-3.webp",
+      "/images/atlas-g-1021-4.webp"
+    ],
     "summary": "10ft ModiBox Portable Office Container. Includes insulated walls, air conditioning, LED lighting. From $3,308, sales only.",
     "description": [
       "The 10ft ModiBox Portable Office Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,308 is the depot price, with delivery quoted for your ZIP code.",
@@ -1125,7 +1231,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "15ft",
     "typeLabel": "container building",
     "image": "/images/atlas-15ft-modibox-office.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1014-1.webp",
+      "/images/atlas-g-1014-2.webp",
+      "/images/atlas-g-1014-3.webp",
+      "/images/atlas-g-1014-4.webp"
+    ],
     "summary": "15ft ModiBox Office. Includes insulated walls, large windows. From $2,565, sales only.",
     "description": [
       "The 15ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,565 is the depot price, with delivery quoted for your ZIP code.",
@@ -1166,7 +1277,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container building",
     "image": "/images/atlas-20ft-modibox-office.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1003-1.webp",
+      "/images/atlas-g-1003-2.webp",
+      "/images/atlas-g-1003-3.webp",
+      "/images/atlas-g-1003-4.webp"
+    ],
     "summary": "20ft ModiBox Office. Includes insulated walls. From $3,429, sales only.",
     "description": [
       "The 20ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,429 is the depot price, with delivery quoted for your ZIP code.",
@@ -1207,7 +1323,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "30ft",
     "typeLabel": "container building",
     "image": "/images/atlas-30ft-modibox-office.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-992-1.webp",
+      "/images/atlas-g-992-2.webp",
+      "/images/atlas-g-992-3.webp",
+      "/images/atlas-g-992-4.webp"
+    ],
     "summary": "30ft ModiBox Office. Includes insulated walls, large windows. From $3,690, sales only.",
     "description": [
       "The 30ft ModiBox Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,690 is the depot price, with delivery quoted for your ZIP code.",
@@ -1251,7 +1372,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "container building",
     "typeLabel": "container building",
     "image": "/images/atlas-shipping-container-cafe.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-979-1.webp",
+      "/images/atlas-g-979-2.webp",
+      "/images/atlas-g-979-3.webp",
+      "/images/atlas-g-979-4.webp"
+    ],
     "summary": "Shipping Container Cafe. Includes insulated walls, one-trip condition, large windows. From $3,443, sales only.",
     "description": [
       "The Shipping Container Cafe is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,443 is the depot price, with delivery quoted for your ZIP code.",
@@ -1295,7 +1421,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container building",
     "image": "/images/atlas-20ft-mobile-office-container.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-903-1.webp",
+      "/images/atlas-g-903-2.webp",
+      "/images/atlas-g-903-3.webp",
+      "/images/atlas-g-903-4.webp"
+    ],
     "summary": "20ft Mobile Office Container. Includes insulated walls, air conditioning, extra height (9ft 6in). From $3,767, sales only.",
     "description": [
       "The 20ft Mobile Office Container is a container building you can buy outright for delivery across the lower 48 states. The starting price of $3,767 is the depot price, with delivery quoted for your ZIP code.",
@@ -1339,7 +1470,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container building",
     "image": "/images/atlas-20ft-shipping-container-mobile-office.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-888-1.webp",
+      "/images/atlas-g-888-2.webp",
+      "/images/atlas-g-888-3.webp",
+      "/images/atlas-g-888-4.webp"
+    ],
     "summary": "20ft Shipping Container Mobile Office. Includes insulated walls, large windows. From $2,997, sales only.",
     "description": [
       "The 20ft Shipping Container Mobile Office is a container building you can buy outright for delivery across the lower 48 states. The starting price of $2,997 is the depot price, with delivery quoted for your ZIP code.",
@@ -1477,7 +1613,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container pool",
     "image": "/images/atlas-40ft-shipping-container-pool.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1285-1.webp",
+      "/images/atlas-g-1285-2.webp",
+      "/images/atlas-g-1285-3.webp",
+      "/images/atlas-g-1285-4.webp"
+    ],
     "summary": "40ft Shipping Container Pool. Includes insulated walls, extra height (9ft 6in), LED lighting. From $9,995, sales only.",
     "description": [
       "The 40ft Shipping Container Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $9,995 is the depot price, with delivery quoted for your ZIP code.",
@@ -1521,7 +1662,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container pool",
     "image": "/images/atlas-20ft-shipping-container-swimming-pool-with-convenient-side-s.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1274-1.webp",
+      "/images/atlas-g-1274-2.webp",
+      "/images/atlas-g-1274-3.webp",
+      "/images/atlas-g-1274-4.webp"
+    ],
     "summary": "20ft Shipping Container Swimming Pool. Includes heating, LED lighting. From $6,500, sales only.",
     "description": [
       "The 20ft Shipping Container Swimming Pool with Convenient Side Staircase is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,500 is the depot price, with delivery quoted for your ZIP code.",
@@ -1565,7 +1711,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container pool",
     "image": "/images/atlas-20ft-portable-container-swimming-pool.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1257-1.webp",
+      "/images/atlas-g-1257-2.webp",
+      "/images/atlas-g-1257-3.webp",
+      "/images/atlas-g-1257-4.webp"
+    ],
     "summary": "20ft Portable Container Swimming Pool. Includes heating, an outdoor deck or balcony, LED lighting. From $6,450, sales only.",
     "description": [
       "The 20ft Portable Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,450 is the depot price, with delivery quoted for your ZIP code.",
@@ -1647,7 +1798,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "container pool",
     "image": "/images/atlas-20ft-luxury-container-swimming-pool-with-glass-viewing-panel.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1239-1.webp",
+      "/images/atlas-g-1239-2.webp",
+      "/images/atlas-g-1239-3.webp",
+      "/images/atlas-g-1239-4.webp"
+    ],
     "summary": "20ft Luxury Container Swimming Pool. Includes large windows. From $23,000, sales only.",
     "description": [
       "The 20ft Luxury Container Swimming Pool with Glass Viewing Panel is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $23,000 is the depot price, with delivery quoted for your ZIP code.",
@@ -1688,7 +1844,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "container pool",
     "image": "/images/atlas-12m-40ft-portable-container-swimming-pool.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1222-1.webp",
+      "/images/atlas-g-1222-2.webp",
+      "/images/atlas-g-1222-3.webp",
+      "/images/atlas-g-1222-4.webp"
+    ],
     "summary": "12M / 40ft Portable Container Swimming Pool. Includes heating, an outdoor deck or balcony, large windows. From $14,700, sales only.",
     "description": [
       "The 12M / 40ft Portable Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $14,700 is the depot price, with delivery quoted for your ZIP code.",
@@ -1817,7 +1978,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "shipping container",
     "typeLabel": "shipping container",
     "image": "/images/atlas-10-hc-used-container-with-rollup-door.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-914-1.webp",
+      "/images/atlas-g-914-2.webp",
+      "/images/atlas-g-914-3.webp",
+      "/images/atlas-g-914-4.webp"
+    ],
     "summary": "10' HC Used Container With Rollup Door. Includes roll-up doors, extra height (9ft 6in). From $1,397, sales only.",
     "description": [
       "The 10' HC Used Container With Rollup Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,397 is the depot price, with delivery quoted for your ZIP code.",
@@ -2031,7 +2197,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "10ft",
     "typeLabel": "container building",
     "image": "/images/atlas-self-assembly-site-offices-10ft-3-3m-x-2-3m.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-957-1.webp",
+      "/images/atlas-g-957-2.webp",
+      "/images/atlas-g-957-3.webp",
+      "/images/atlas-g-957-4.webp"
+    ],
     "summary": "SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m. From $1,993, sales only.",
     "description": [
       "The SELF ASSEMBLY SITE OFFICES 10ft / 3.3m x 2.3m is a container building you can buy outright for delivery across the lower 48 states. The starting price of $1,993 is the depot price, with delivery quoted for your ZIP code.",
@@ -2581,7 +2752,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "40ft",
     "typeLabel": "shipping container",
     "image": "/images/atlas-used-40ft-shipping-container.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-1036-1.webp",
+      "/images/atlas-g-1036-2.webp",
+      "/images/atlas-g-1036-3.webp",
+      "/images/atlas-g-1036-4.webp"
+    ],
     "summary": "Used 40ft Shipping Container. Includes roll-up doors, lockbox protection. From $1,935, sales only.",
     "description": [
       "The Used 40ft Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,935 is the depot price, with delivery quoted for your ZIP code.",
@@ -3608,7 +3784,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "shipping container",
     "image": "/images/atlas-20ft-container-with-roll-up-doors.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-896-1.webp",
+      "/images/atlas-g-896-2.webp",
+      "/images/atlas-g-896-3.webp",
+      "/images/atlas-g-896-4.webp"
+    ],
     "summary": "20ft Container With Roll Up Doors. Includes roll-up doors, side access doors. From $1,863, sales only.",
     "description": [
       "The 20ft Container With Roll Up Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,863 is the depot price, with delivery quoted for your ZIP code.",
@@ -3649,7 +3830,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "small container",
     "typeLabel": "small container",
     "image": "/images/atlas-12-small-cubic-shipping-container.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-862-1.webp",
+      "/images/atlas-g-862-2.webp",
+      "/images/atlas-g-862-3.webp",
+      "/images/atlas-g-862-4.webp"
+    ],
     "summary": "12' Small Cubic Shipping Container. Includes roll-up doors, large windows. From $2,703, sales only.",
     "description": [
       "The 12' Small Cubic Shipping Container is a small container you can buy outright for delivery across the lower 48 states. The starting price of $2,703 is the depot price, with delivery quoted for your ZIP code.",
@@ -3979,7 +4165,12 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "refrigerated container",
     "image": "/images/atlas-20ft-refrigerated-container-unit-b.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-939-1.webp",
+      "/images/atlas-g-939-2.webp",
+      "/images/atlas-g-939-3.webp",
+      "/images/atlas-g-939-4.webp"
+    ],
     "summary": "20ft Refrigerated Container (Unit B). Includes insulated walls, a refrigeration unit. From $4,320, sales only.",
     "description": [
       "The 20ft Refrigerated Container (Unit B) is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $4,320 is the depot price, with delivery quoted for your ZIP code.",
@@ -4020,7 +4211,11 @@ const ROWS: CatalogRow[] = [
     "sizeLabel": "20ft",
     "typeLabel": "refrigerated container",
     "image": "/images/atlas-20ft-refrigerated-container-unit-a.webp",
-    "gallery": [],
+    "gallery": [
+      "/images/atlas-g-934-1.webp",
+      "/images/atlas-g-934-2.webp",
+      "/images/atlas-g-934-3.webp"
+    ],
     "summary": "20ft Refrigerated Container (Unit A). Includes insulated walls, a refrigeration unit. From $4,365, sales only.",
     "description": [
       "The 20ft Refrigerated Container (Unit A) is a refrigerated container you can buy outright for delivery across the lower 48 states. The starting price of $4,365 is the depot price, with delivery quoted for your ZIP code.",
