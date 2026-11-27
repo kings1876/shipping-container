@@ -14,6 +14,7 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
     blurb: 'Standard steel containers by size and condition: new (one-trip), used and cargo-worthy.',
     hubPath: '/shipping-containers-for-sale/',
     categoryPaths: [
+      '/shipping-containers-for-sale/',
       '/10ft-shipping-containers-for-sale/',
       '/20ft-shipping-containers-for-sale/',
       '/40ft-shipping-containers-for-sale/',
@@ -35,13 +36,13 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
   {
     id: 'modified',
     title: 'Modified Containers',
-    blurb: 'Containers fitted out as offices, workshops, garages, cabins and pools.',
+    blurb: 'Containers fitted out as offices, workshops, garages, guard booths and pools.',
     hubPath: '/modified-shipping-containers/',
     categoryPaths: [
+      '/modified-shipping-containers/',
       '/shipping-container-offices/',
       '/shipping-container-workshops/',
       '/shipping-container-garages/',
-      '/shipping-container-cabins/',
       '/shipping-container-pools/',
       '/shipping-container-barns/',
       '/shipping-container-ramps/',
@@ -50,9 +51,11 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
   {
     id: 'homes',
     title: 'Container Homes',
-    blurb: 'Tiny homes, prefab homes and multi-bedroom homes built from shipping containers.',
+    blurb: 'Container homes, cabins, tiny homes and prefab homes built from shipping containers.',
     hubPath: '/shipping-container-homes-for-sale/',
     categoryPaths: [
+      '/shipping-container-homes-for-sale/',
+      '/shipping-container-cabins/',
       '/tiny-house-container-homes/',
       '/prefab-shipping-container-homes/',
       '/shipping-container-homes/',

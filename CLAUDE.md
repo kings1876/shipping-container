@@ -12,3 +12,4 @@
 - Set `NEXT_PUBLIC_SITE_URL` in Vercel when the real domain is connected.
 - OpenSEO project: "Shipping Containers USA" (id 8de1e89b-e355-4154-870a-18bfe717a276), US market.
 - Verify changes with `npm run lint` and `npm run build` before pushing.
+- Catalog import: `src/data/catalogProducts.ts` holds 90 products imported from the supplier catalog (Atlas Container Supply), with our own descriptions and photos in `public/images/atlas-*.webp`. Prices are the supplier's listed prices, to be confirmed. These pages are `noindex` and excluded from the sitemap until each has its own researched keyword (volume >= 110, KD < 25).

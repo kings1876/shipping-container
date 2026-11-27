@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: title },
     description,
     alternates: { canonical: path },
+    ...(page.kind === 'product' && page.data.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: { title, description, url: path },
     twitter: { title, description },
   };

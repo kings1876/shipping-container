@@ -99,7 +99,7 @@ export function ProductView({ product }: { product: ProductPageData }) {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2 bg-white border border-slate-200 rounded-lg p-6 sm:p-8 space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">About this {product.sizeLabel} container</h2>
+              <h2 className="text-xl font-bold text-slate-900">{product.aboutHeading ?? `About this ${product.sizeLabel} container`}</h2>
               {product.description.map((para, i) => (
                 <p key={i} className="text-base text-slate-600 leading-relaxed">
                   {para}
@@ -119,7 +119,7 @@ export function ProductView({ product }: { product: ProductPageData }) {
             </div>
           </div>
 
-          <SpecTable specs={[product.spec]} caption={`${product.name} Specifications`} />
+          {product.spec && <SpecTable specs={[product.spec]} caption={`${product.name} Specifications`} />}
 
           {related.length > 0 && (
             <div>

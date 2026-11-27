@@ -1,4 +1,5 @@
 import { ProductPageData } from '../types/seo';
+import { CATALOG_PRODUCTS } from './catalogProducts';
 import { SITE_IMAGES } from './images';
 import { SizeKey, specRow } from './sizes';
 
@@ -112,7 +113,7 @@ function build(p: ProductInput): ProductPageData {
 
 const I = SITE_IMAGES;
 
-export const PRODUCT_PAGES: ProductPageData[] = [
+const BASE_PRODUCT_PAGES: ProductPageData[] = [
   build({
     slug: '10ft-one-trip-shipping-container',
     categoryPath: '/10ft-shipping-containers-for-sale/',
@@ -521,6 +522,8 @@ export const PRODUCT_PAGES: ProductPageData[] = [
     titleOverride: '40ft Container Swim Pool | From $36,500',
   }),
 ];
+
+export const PRODUCT_PAGES: ProductPageData[] = [...BASE_PRODUCT_PAGES, ...CATALOG_PRODUCTS];
 
 export const PRODUCT_BY_SLUG: Record<string, ProductPageData> = Object.fromEntries(
   PRODUCT_PAGES.map((p) => [p.slug, p]),

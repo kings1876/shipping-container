@@ -171,7 +171,9 @@ export interface ProductPageData {
   description: string[];
   features: { label: string; detail: string }[];
   bestFor: string[];
-  spec: ContainerSpecRow;
+  spec?: ContainerSpecRow;
   relatedProducts: string[];
+  aboutHeading?: string;
+  noindex?: boolean;
   faqs: FaqItem[];
 }
