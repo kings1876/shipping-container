@@ -1101,8 +1101,8 @@ const ROWS: CatalogRow[] = [
     ],
     "related": [
       "used-40ft-shipping-container",
-      "40ft-new-shipping-container",
-      "40ft-storage-container-with-roll-up-side-doors"
+      "40ft-storage-container-with-roll-up-side-doors",
+      "40ft-open-side-doors-shipping-container"
     ],
     "kw": "shipping container office conversion",
     "vol": "170",
@@ -1587,8 +1587,8 @@ const ROWS: CatalogRow[] = [
     ],
     "related": [
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091",
-      "20ft-once-used-shipping-container"
+      "20ft-standard-shipping-container",
+      "20ft-high-cube-shipping-container-730"
     ]
   },
   {
@@ -1633,8 +1633,8 @@ const ROWS: CatalogRow[] = [
     ],
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091",
-      "20ft-once-used-shipping-container"
+      "20ft-standard-shipping-container",
+      "20ft-high-cube-shipping-container-730"
     ],
     "kw": "custom shipping container",
     "vol": "590",
@@ -1684,7 +1684,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
       "20ft-portable-container-swimming-pool",
-      "20ft-mobile-foldable-fully-automatic-container-swimming-pool"
+      "20ft-luxury-container-swimming-pool-with-glass-viewing-panel"
     ],
     "kw": "shipping container swimming pool",
     "vol": "1300",
@@ -1734,7 +1734,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "40ft-shipping-container-pool",
       "20ft-portable-container-swimming-pool",
-      "20ft-mobile-foldable-fully-automatic-container-swimming-pool"
+      "20ft-luxury-container-swimming-pool-with-glass-viewing-panel"
     ],
     "kw": "container pool for sale",
     "vol": "720",
@@ -1783,48 +1783,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "40ft-shipping-container-pool",
       "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
-      "20ft-mobile-foldable-fully-automatic-container-swimming-pool"
-    ]
-  },
-  {
-    "description": [
-      "The 20ft Mobile Foldable Fully Automatic Container Swimming Pool is a container pool you can buy outright for delivery across the lower 48 states. The starting price of $6,900 is the depot price, with delivery quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "20ft-mobile-foldable-fully-automatic-container-swimming-pool",
-    "categoryPath": "/shipping-container-pools/",
-    "name": "20ft Foldable Container Swimming Pool",
-    "shortName": "20ft Foldable Container Pool",
-    "condition": "New, Built to Order",
-    "price": 6900,
-    "sizeLabel": "20ft",
-    "typeLabel": "container pool",
-    "image": "/images/atlas-20ft-mobile-foldable-fully-automatic-container-swimming-pool.webp",
-    "gallery": [],
-    "summary": "20ft Mobile Foldable Fully Automatic. From $6,900, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Shell",
-        "detail": "A reinforced steel container converted into a pool."
-      },
-      {
-        "label": "Delivered Ready to Place",
-        "detail": "Arrives complete and sets onto a prepared level pad."
-      },
-      {
-        "label": "Backyard Centrepiece",
-        "detail": "A compact pool option for small and medium yards."
-      }
-    ],
-    "bestFor": [
-      "Backyard pools",
-      "Rental and resort properties",
-      "Small-space swimming"
-    ],
-    "related": [
-      "40ft-shipping-container-pool",
-      "20ft-shipping-container-swimming-pool-with-convenient-side-staircase",
-      "20ft-portable-container-swimming-pool"
+      "20ft-luxury-container-swimming-pool-with-glass-viewing-panel"
     ]
   },
   {
@@ -1928,96 +1887,6 @@ const ROWS: CatalogRow[] = [
   },
   {
     "description": [
-      "If you are looking for a 10ft shipping container, the 10ft Used Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,575 is the depot price, and delivery is quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "about": "About this 10ft shipping container",
-    "slug": "10ft-used-shipping-container-1132",
-    "categoryPath": "/10ft-shipping-containers-for-sale/",
-    "name": "10ft Used Shipping Container",
-    "shortName": "10ft Used Shipping Container",
-    "condition": "Used",
-    "price": 1575,
-    "sizeLabel": "10ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-10ft-used-shipping-container-1132.webp",
-    "gallery": [],
-    "summary": "10ft Used Shipping Container. Includes roll-up doors, lockbox protection. From $1,575, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "new-10ft-shipping-container",
-      "10-hc-used-container-with-rollup-door",
-      "10ft-high-cube-shipping-container"
-    ],
-    "kw": "10ft shipping container",
-    "vol": "1900",
-    "kd": "0"
-  },
-  {
-    "description": [
-      "If you are looking for a 10ft container, the New 10ft Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,755 is the depot price, and delivery is quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "about": "About this 10ft container",
-    "slug": "new-10ft-shipping-container",
-    "categoryPath": "/10ft-shipping-containers-for-sale/",
-    "name": "New 10ft Shipping Container",
-    "shortName": "New 10ft Shipping Container",
-    "condition": "New / One-Trip",
-    "price": 1755,
-    "sizeLabel": "10ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-new-10ft-shipping-container.webp",
-    "gallery": [],
-    "summary": "New 10ft Shipping Container. Includes roll-up doors, lockbox protection. From $1,755, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "10ft-used-shipping-container-1132",
-      "10-hc-used-container-with-rollup-door",
-      "10ft-high-cube-shipping-container"
-    ],
-    "kw": "10ft container for sale",
-    "vol": "110",
-    "kd": "0"
-  },
-  {
-    "description": [
       "The 10' HC Used Container With Rollup Door is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,397 is the depot price, with delivery quoted for your ZIP code.",
       "Listed features include roll-up doors, extra height (9ft 6in). Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
     ],
@@ -2057,9 +1926,9 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "10ft-used-shipping-container-1132",
-      "new-10ft-shipping-container",
-      "10ft-high-cube-shipping-container"
+      "10ft-high-cube-shipping-container",
+      "10ft-shipping-container-with-roll-up-door",
+      "10ft-one-trip-high-cube-shipping-container"
     ]
   },
   {
@@ -2103,9 +1972,9 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "10ft-used-shipping-container-1132",
-      "new-10ft-shipping-container",
-      "10-hc-used-container-with-rollup-door"
+      "10-hc-used-container-with-rollup-door",
+      "10ft-shipping-container-with-roll-up-door",
+      "10ft-one-trip-high-cube-shipping-container"
     ]
   },
   {
@@ -2148,95 +2017,9 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "10ft-used-shipping-container-1132",
-      "new-10ft-shipping-container",
-      "10-hc-used-container-with-rollup-door"
-    ]
-  },
-  {
-    "description": [
-      "If you are looking for a standard shipping container, the 20ft Used Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,895 is the depot price, and delivery is quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "about": "About this standard shipping container",
-    "slug": "20ft-used-shipping-container-1091",
-    "categoryPath": "/20ft-shipping-containers-for-sale/",
-    "name": "20ft Used Shipping Container",
-    "shortName": "20ft Used Shipping Container",
-    "condition": "Used",
-    "price": 1895,
-    "sizeLabel": "20ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-20ft-used-shipping-container-1091.webp",
-    "gallery": [],
-    "summary": "20ft Used Shipping Container. Includes roll-up doors, lockbox protection. From $1,895, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-custom-shipping-container-conversion",
-      "20ft-once-used-shipping-container"
-    ],
-    "kw": "standard shipping container",
-    "vol": "480",
-    "kd": "23"
-  },
-  {
-    "description": [
-      "The 20ft Once-Used Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,475 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "20ft-once-used-shipping-container",
-    "categoryPath": "/20ft-shipping-containers-for-sale/",
-    "name": "20ft Once-Used Shipping Container",
-    "shortName": "20ft Once-Used Shipping Container",
-    "condition": "Used",
-    "price": 2475,
-    "sizeLabel": "20ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-20ft-once-used-shipping-container.webp",
-    "gallery": [],
-    "summary": "20ft Once-Used Shipping Container. Includes roll-up doors, lockbox protection. From $2,475, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "10-hc-used-container-with-rollup-door",
+      "10ft-high-cube-shipping-container",
+      "10ft-one-trip-high-cube-shipping-container"
     ]
   },
   {
@@ -2291,51 +2074,6 @@ const ROWS: CatalogRow[] = [
   },
   {
     "description": [
-      "If you are looking for a 20ft storage container, the 20ft Standard Storage Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,261 is the depot price, and delivery is quoted for your ZIP code.",
-      "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "about": "About this 20ft storage container",
-    "slug": "20ft-standard-storage-container",
-    "categoryPath": "/20ft-shipping-containers-for-sale/",
-    "name": "20ft Standard Storage Container",
-    "shortName": "20ft Standard Storage Container",
-    "condition": "New",
-    "price": 1261,
-    "sizeLabel": "20ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-20ft-standard-storage-container.webp",
-    "gallery": [],
-    "summary": "20ft Standard Storage Container. From $1,261, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
-    ],
-    "kw": "20ft storage container",
-    "vol": "880",
-    "kd": "12"
-  },
-  {
-    "description": [
       "If you are looking for a 20ft cargo container, the 20ft Standard Shipping Container is one of the options we sell outright, with delivery across the lower 48 states. The starting price of $1,665 is the depot price, and delivery is quoted for your ZIP code.",
       "Full specifications are confirmed on your quote. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
     ],
@@ -2378,7 +2116,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-high-cube-shipping-container-730"
     ],
     "kw": "20ft cargo container",
     "vol": "260",
@@ -2428,7 +2166,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ],
     "kw": "high cube shipping container",
     "vol": "1000",
@@ -2478,52 +2216,11 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ],
     "kw": "double door shipping container",
     "vol": "210",
     "kd": "0"
-  },
-  {
-    "description": [
-      "The 20ft Shipping Container With Roll Up Side Doors is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,530 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include roll-up doors, side access doors. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "20ft-shipping-container-with-roll-up-side-doors",
-    "categoryPath": "/20ft-shipping-containers-for-sale/",
-    "name": "20ft Shipping Container With Roll Up Side Doors",
-    "shortName": "20ft Shipping Container With Roll Up",
-    "condition": "New",
-    "price": 1530,
-    "sizeLabel": "20ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-20ft-shipping-container-with-roll-up-side-doors.webp",
-    "gallery": [],
-    "summary": "20ft Shipping Container With Roll Up. Includes roll-up doors, side access doors. From $1,530, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
-    ]
   },
   {
     "description": [
@@ -2567,7 +2264,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ]
   },
   {
@@ -2759,7 +2456,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ],
     "kw": "new 20ft shipping container",
     "vol": "390",
@@ -2808,7 +2505,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ]
   },
   {
@@ -2854,97 +2551,12 @@ const ROWS: CatalogRow[] = [
     ],
     "related": [
       "converted-40ft-shipping-container",
-      "40ft-new-shipping-container",
-      "40ft-storage-container-with-roll-up-side-doors"
+      "40ft-storage-container-with-roll-up-side-doors",
+      "40ft-open-side-doors-shipping-container"
     ],
     "kw": "used 40ft container",
     "vol": "210",
     "kd": "7"
-  },
-  {
-    "description": [
-      "Checking the 40ft container price? The 40ft New Shipping Container starts at $2,795 at the depot, and we sell it outright with delivery across the lower 48 states. Delivery is quoted for your ZIP code.",
-      "Listed features include side access doors, lockbox protection. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "40ft-new-shipping-container",
-    "categoryPath": "/40ft-shipping-containers-for-sale/",
-    "name": "40ft New Shipping Container",
-    "shortName": "40ft New Shipping Container",
-    "condition": "New / One-Trip",
-    "price": 2795,
-    "sizeLabel": "40ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-40ft-new-shipping-container.webp",
-    "gallery": [],
-    "summary": "40ft New Shipping Container. Includes side access doors, lockbox protection. From $2,795, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "converted-40ft-shipping-container",
-      "used-40ft-shipping-container",
-      "40ft-storage-container-with-roll-up-side-doors"
-    ],
-    "kw": "40ft container price",
-    "vol": "390",
-    "kd": "0"
-  },
-  {
-    "description": [
-      "The 40ft High Cube One Trip Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $2,700 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "40ft-high-cube-one-trip-shipping-container-953",
-    "categoryPath": "/40ft-high-cube-shipping-containers-for-sale/",
-    "name": "40ft High Cube One Trip Shipping Container",
-    "shortName": "40ft High Cube One Trip Shipping Container",
-    "condition": "New / One-Trip",
-    "price": 2700,
-    "sizeLabel": "40ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-40ft-high-cube-one-trip-shipping-container-953.webp",
-    "gallery": [],
-    "summary": "40ft High Cube One Trip Shipping Container. Includes extra height (9ft 6in), one-trip condition. From $2,700, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "40ft-full-side-access-high-cube-container",
-      "40ft-one-trip-high-cube-shipping-container",
-      "40ft-high-cube-shipping-container"
-    ]
   },
   {
     "description": [
@@ -2989,7 +2601,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "converted-40ft-shipping-container",
       "used-40ft-shipping-container",
-      "40ft-new-shipping-container"
+      "40ft-open-side-doors-shipping-container"
     ],
     "kw": "40ft storage container",
     "vol": "480",
@@ -3039,7 +2651,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "converted-40ft-shipping-container",
       "used-40ft-shipping-container",
-      "40ft-new-shipping-container"
+      "40ft-storage-container-with-roll-up-side-doors"
     ],
     "kw": "open side shipping container",
     "vol": "590",
@@ -3087,7 +2699,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "converted-40ft-shipping-container",
       "used-40ft-shipping-container",
-      "40ft-new-shipping-container"
+      "40ft-storage-container-with-roll-up-side-doors"
     ]
   },
   {
@@ -3181,7 +2793,6 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "40ft-high-cube-one-trip-shipping-container-953",
       "40ft-one-trip-high-cube-shipping-container",
       "40ft-high-cube-shipping-container"
     ]
@@ -3227,7 +2838,6 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "40ft-high-cube-one-trip-shipping-container-953",
       "40ft-full-side-access-high-cube-container",
       "40ft-high-cube-shipping-container"
     ]
@@ -3273,54 +2883,12 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "40ft-high-cube-one-trip-shipping-container-953",
       "40ft-full-side-access-high-cube-container",
       "40ft-one-trip-high-cube-shipping-container"
     ],
     "kw": "40ft high cube container",
     "vol": "590",
     "kd": "14"
-  },
-  {
-    "description": [
-      "The 20ft High Cube Double Door New (One Trip) Shipping Container is a shipping container you can buy outright for delivery across the lower 48 states. The starting price of $1,564 is the depot price, with delivery quoted for your ZIP code.",
-      "Listed features include doors at both ends, extra height (9ft 6in), one-trip condition. Specifications can vary by unit, so we confirm size, finish and inclusions with you before you order."
-    ],
-    "slug": "20ft-high-cube-double-door-new-one-trip-shipping-container",
-    "categoryPath": "/20ft-shipping-containers-for-sale/",
-    "name": "20ft High Cube Double Door New (One Trip) Shipping Container",
-    "shortName": "20ft High Cube Double Door New (One Trip)",
-    "condition": "New / One-Trip",
-    "price": 1564,
-    "sizeLabel": "20ft",
-    "typeLabel": "shipping container",
-    "image": "/images/atlas-20ft-high-cube-double-door-new-one-trip-shipping-container.webp",
-    "gallery": [],
-    "summary": "20ft High Cube Double Door New (One Trip). Includes doors at both ends, extra height (9ft 6in), one-trip condition. From $1,564, sales only.",
-    "features": [
-      {
-        "label": "Steel Container Build",
-        "detail": "Corten steel shell with ISO corner castings, suited to storage, transport or conversion."
-      },
-      {
-        "label": "Secure Doors",
-        "detail": "Lockable door gear to protect what you store."
-      },
-      {
-        "label": "Delivered in the Lower 48",
-        "detail": "We arrange flatbed or tilt-bed delivery to your site."
-      }
-    ],
-    "bestFor": [
-      "Secure storage",
-      "Job-site and farm use",
-      "Conversion projects"
-    ],
-    "related": [
-      "20ft-high-cube-custom-shipping-container-conversion",
-      "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
-    ]
   },
   {
     "description": [
@@ -3461,9 +3029,9 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "10ft-used-shipping-container-1132",
-      "new-10ft-shipping-container",
-      "10-hc-used-container-with-rollup-door"
+      "10-hc-used-container-with-rollup-door",
+      "10ft-high-cube-shipping-container",
+      "10ft-shipping-container-with-roll-up-door"
     ]
   },
   {
@@ -3551,9 +3119,9 @@ const ROWS: CatalogRow[] = [
       "Conversion projects"
     ],
     "related": [
-      "10ft-used-shipping-container-1132",
-      "new-10ft-shipping-container",
-      "10-hc-used-container-with-rollup-door"
+      "10-hc-used-container-with-rollup-door",
+      "10ft-high-cube-shipping-container",
+      "10ft-shipping-container-with-roll-up-door"
     ]
   },
   {
@@ -3900,7 +3468,7 @@ const ROWS: CatalogRow[] = [
     "related": [
       "20ft-high-cube-custom-shipping-container-conversion",
       "20ft-custom-shipping-container-conversion",
-      "20ft-used-shipping-container-1091"
+      "20ft-standard-shipping-container"
     ],
     "kw": "shipping container with roll up door",
     "vol": "1000",
