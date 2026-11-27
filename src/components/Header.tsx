@@ -8,8 +8,9 @@ import { AppLink } from './AppLink';
 
 const NAV_LINKS = [
   { label: 'Containers', path: '/shipping-containers-for-sale/' },
-  { label: 'Container Homes', path: '/shipping-container-homes-for-sale/' },
+  { label: 'Storage & Sheds', path: '/storage-containers-for-sale/' },
   { label: 'Modified', path: '/modified-shipping-containers/' },
+  { label: 'Container Homes', path: '/shipping-container-homes-for-sale/' },
   { label: 'Catalog', path: '/products/' },
   { label: 'Locations', path: '/shipping-containers-for-sale/texas/' },
   { label: 'Guides', path: '/guides/shipping-container-sizes/' },
@@ -31,7 +32,7 @@ export function Header() {
         </AppLink>
 
         {/* Zone 2: 5 concise single-line nav links */}
-        <nav aria-label="Primary" className="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
+        <nav aria-label="Primary" className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
           {NAV_LINKS.map((link) => {
             const active =
               currentPath === link.path ||
