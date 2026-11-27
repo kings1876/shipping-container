@@ -2,7 +2,7 @@ import { ArrowRight, Check } from 'lucide-react';
 import { AppLink } from '../components/AppLink';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { ProductCard } from '../components/ProductCard';
-import { SafeImage } from '../components/SafeImage';
+import { ProductGallery } from '../components/ProductGallery';
 import { SeoHead } from '../components/SeoHead';
 import { SpecTable } from '../components/SpecTable';
 import { CATEGORY_BY_PATH } from '../data/categories';
@@ -31,6 +31,7 @@ export function ProductView({ product }: { product: ProductPageData }) {
           description: product.metaDescription,
           lowPrice: product.priceFrom,
           image: product.image,
+          images: [product.image, ...(product.gallery ?? [])],
         }}
         faqs={product.faqs}
       />
@@ -70,14 +71,13 @@ export function ProductView({ product }: { product: ProductPageData }) {
               </div>
             </div>
             <div className="lg:col-span-6">
-              <div className="h-full min-h-[260px] sm:min-h-[340px] rounded-lg overflow-hidden border border-slate-200 bg-slate-100">
-                <SafeImage
-                  src={product.image}
-                  alt={product.imageAlt}
-                  className="w-full h-full object-cover"
-                  fallbackTitle={product.name}
-                />
-              </div>
+              <ProductGallery
+                images={[
+                  { src: product.image, alt: product.imageAlt },
+                  ...(product.gallery ?? []).map((src, i) => ({ src, alt: `${product.imageAlt}, view ${i + 2}` })),
+                ]}
+                fallbackTitle={product.name}
+              />
             </div>
           </div>
         </div>

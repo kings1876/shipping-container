@@ -7,6 +7,7 @@ interface ProductOfferSchemaInput {
   lowPrice: number;
   highPrice?: number;
   image?: string;
+  images?: string[];
 }
 
 interface SeoHeadProps {
@@ -58,7 +59,11 @@ export function SeoHead({
       name: productSchema.name,
       description: productSchema.description,
       brand: { '@type': 'Brand', name: SITE_NAME },
-      image: productSchema.image ? `${origin}${productSchema.image}` : undefined,
+      image: productSchema.images?.length
+        ? productSchema.images.map((src) => `${origin}${src}`)
+        : productSchema.image
+          ? `${origin}${productSchema.image}`
+          : undefined,
       offers: {
         '@type': productSchema.highPrice ? 'AggregateOffer' : 'Offer',
         priceCurrency: 'USD',

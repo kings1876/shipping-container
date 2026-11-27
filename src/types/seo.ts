@@ -166,6 +166,7 @@ export interface ProductPageData {
   sizeLabel: string;
   priceFrom: number;
   image: string;
+  gallery?: string[];
   imageAlt: string;
   summary: string;
   description: string[];
